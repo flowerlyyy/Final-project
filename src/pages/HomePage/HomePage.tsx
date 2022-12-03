@@ -3,7 +3,7 @@ import './HomePage.scss';
 export const HomePage = () => {
 return(
 <>
-<div className="QuestionBlog container">
+<div className="QuestionBlog narrow-container">
         <div className="Blog">
             <div className="Question">How do I place an order ?</div>
             <div className="Arrow"><button><svg xmlns="http://www.w3.org/2000/svg" width="35" height="16" viewBox="0 0 36 18" fill="none">
