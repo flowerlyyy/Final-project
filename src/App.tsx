@@ -22,8 +22,9 @@ function App() {
         <Route path="signin" element={<SigninPage/>}/>
       </Routes>
       </main>
+      
       <footer>
-
+      <Footer/>
       </footer>
     </div>
   );
