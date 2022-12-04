@@ -11,6 +11,7 @@ import { SigninPage } from './pages/SigninPage/SigninPage';
 function App() {
   return (
     <div className="App">
+      <Header/>
       <main>
       <Routes>
         <Route path="/" element ={<HomePage/>}/>
