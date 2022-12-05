@@ -6,4 +6,4 @@ export const SigninPage = () => {
         <h1>Siginin Page</h1>
         </>
     );
-}
+};
