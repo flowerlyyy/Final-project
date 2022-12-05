@@ -1,9 +1,19 @@
+import { NavBar } from "../../Components/NavBar/NavBar";
 import "../Header/Header.scss";
+import logo from './Logo.png';
+import bag from './Bag.png';
+
 
 export const Header = () => {
     return(
-        <>
-        <h1>Header</h1>
-        </>
-    );
-}
+        <header className="narrow-container">
+        <img  className="logo" src={logo}/>
+        <NavBar/>
+        
+        <div className="bagsign">
+        <img className="bag" src={bag}/>
+        <button className="sign">Sign in</button>
+    </div>
+    </header>
+    )
+};
