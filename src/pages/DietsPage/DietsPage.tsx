@@ -5,5 +5,5 @@ export const DietsPage= () => {
         <>
         <h1>Diets</h1>
         </>
-    );
-}
+);
+};

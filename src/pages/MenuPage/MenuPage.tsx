@@ -6,4 +6,4 @@ export const MenuPage = () => {
         <h1>MenuPage</h1>
         </>
     );
-}
+};

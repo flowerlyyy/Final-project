@@ -26,5 +26,5 @@ return (
       FAQ
       </Link>
     </nav>
-)
+);
 };
