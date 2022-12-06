@@ -1,45 +1,18 @@
+import { Question } from '../Question/Question';
 import './Questions.scss';
 
 export const Questions= () =>{
+    const questions = ["How do I place an order ?", "On which days and at what hours does the delivery take place ?", "For how long can I order a diet?", "Can I change the delivery address?", "Can I suspend catering?"];
+    
     return(
         <>
-        <div className="QuestionBlog narrow-container">
-        <div className="Blog">
-            <div className="Question">How do I place an order ?</div>
-            <div className="Arrow"><button><svg xmlns="http://www.w3.org/2000/svg" width="35" height="16" viewBox="0 0 36 18" fill="none">
-                <line x1="1" y1="9" x2="33" y2="9" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                <path d="M25 17L34.6096 9.31235C34.8097 9.15222 34.8097 8.84778 34.6096 8.68765L25 1" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                </svg></button></div>
+        <div className="question-block narrow-container">
+        {
+            questions.map((question, index) =>(
+                <Question question={questions[index]}/>
+            ))
+        }
         </div>
-        <div className="Blog">
-            <div className="Question">On which days and at what hours does the delivery take place ?</div>
-            <div className="Arrow"><button><svg xmlns="http://www.w3.org/2000/svg" width="35" height="16" viewBox="0 0 36 18" fill="none">
-                <line x1="1" y1="9" x2="33" y2="9" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                <path d="M25 17L34.6096 9.31235C34.8097 9.15222 34.8097 8.84778 34.6096 8.68765L25 1" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                </svg></button></div>
-        </div>
-        <div className="Blog">
-            <div className="Question">For how long can I order a diet?</div>
-            <div className="Arrow"><button><svg xmlns="http://www.w3.org/2000/svg" width="35" height="16" viewBox="0 0 36 18" fill="none">
-                <line x1="1" y1="9" x2="33" y2="9" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                <path d="M25 17L34.6096 9.31235C34.8097 9.15222 34.8097 8.84778 34.6096 8.68765L25 1" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                </svg></button></div>
-        </div>
-        <div className="Blog">
-            <div className="Question">Can I change the delivery address?</div>
-            <div className="Arrow"><button><svg xmlns="http://www.w3.org/2000/svg" width="35" height="16" viewBox="0 0 36 18" fill="none">
-                <line x1="1" y1="9" x2="33" y2="9" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                <path d="M25 17L34.6096 9.31235C34.8097 9.15222 34.8097 8.84778 34.6096 8.68765L25 1" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                </svg></button></div>
-        </div>
-        <div className="Blog">
-            <div className="Question">Can I suspend catering?</div>
-            <div className="Arrow"><button><svg xmlns="http://www.w3.org/2000/svg" width="35" height="16" viewBox="0 0 36 18" fill="none">
-                <line x1="1" y1="9" x2="33" y2="9" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                <path d="M25 17L34.6096 9.31235C34.8097 9.15222 34.8097 8.84778 34.6096 8.68765L25 1" stroke="#111112" stroke-width="2" stroke-linecap="round"/>
-                </svg></button></div>
-        </div>
-    </div>
     <div className="strange-thing">
         <svg xmlns="http://www.w3.org/2000/svg" width="85" height="198" viewBox="0 0 85 198" fill="none" >
             <line x1="42.5" y1="-2.18557e-08" x2="42.5" y2="161" stroke="#EAEAEA"/>
