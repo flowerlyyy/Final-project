@@ -5,8 +5,8 @@ export const Footer = () => {
   return (
     <>
       <footer>
-        <div className="contentOfFooter narrow-container">
-          <div className="FitMe">
+        <div className="content-of-footer narrow-container">
+          <div className="fit-me">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22" fill="none">
               <path
                 fill-rule="evenodd"
@@ -24,16 +24,16 @@ export const Footer = () => {
               </svg>
             </div>
           </div>
-          <div className="middleContainerOfFooter">
+          <div className="middle-container-of-footer">
             <NavBar />
-            <div className="SocialNetworks SameDisplay">
+            <div className="social-networks same-display">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
                 height="22"
                 viewBox="0 0 14 22"
                 fill="none"
-                className="imageSocial"
+                className="image-social"
               >
                 <path
                   d="M13 5.3H9.9935C9.4505 5.3 9.01 5.74 9.01 6.2835V9.7335H13L12.4155 13.532H9.0105V20.5H4.6225V13.532H1V9.7335H4.5755L4.6225 6.1285L4.616 5.4735C4.61078 4.95361 4.70867 4.43784 4.904 3.95601C5.09933 3.47418 5.38823 3.03584 5.75401 2.66635C6.11978 2.29686 6.55517 2.00353 7.035 1.80334C7.51483 1.60314 8.02958 1.50004 8.5495 1.5H13V5.3Z"
@@ -48,7 +48,7 @@ export const Footer = () => {
                 height="22"
                 viewBox="0 0 22 22"
                 fill="none"
-                className="imageSocial"
+                className="image-social"
               >
                 <path
                   fill-rule="evenodd"
@@ -63,7 +63,7 @@ export const Footer = () => {
                 height="19"
                 viewBox="0 0 22 19"
                 fill="none"
-                className="imageSocial"
+                className="image-social"
               >
                 <path
                   d="M21.0834 1.75922C21.0834 1.75922 19.2336 2.85188 18.2051 3.16172C17.653 2.52694 16.9193 2.07702 16.1032 1.87282C15.2871 1.66861 14.428 1.71998 13.642 2.01997C12.856 2.31995 12.1812 2.85409 11.7086 3.55012C11.2361 4.24616 10.9888 5.07053 11.0001 5.91172V6.82838C9.38916 6.87016 7.79292 6.51288 6.35351 5.78838C4.9141 5.06387 3.67621 3.99463 2.75008 2.67588C2.75008 2.67588 -0.916585 10.9259 7.33341 14.5926C5.44556 15.874 3.19664 16.5166 0.916748 16.4259C9.16675 21.0092 19.2501 16.4259 19.2501 5.88422C19.2501 5.62938 19.2244 5.37455 19.1767 5.12338C20.1117 4.20122 21.0834 1.75922 21.0834 1.75922Z"
@@ -74,13 +74,13 @@ export const Footer = () => {
                 />
               </svg>
             </div>
-            <div className="PrivacyPolicy SameDisplay">
-              <p className="Privacy">Policy privacy</p>
-              <p className="Privacy">Copyright2022.All Rights reserved.</p>
+            <div className="privacy-policy same-display">
+              <p className="privacy">Policy privacy</p>
+              <p className="privacy">Copyright2022.All Rights reserved.</p>
             </div>
           </div>
-          <div className="Contact">
-            <div id="Text-Contact">Contact:</div>
+          <div className="contact">
+            <div id="text-contact">Contact:</div>
             <div id="number">+1234567890</div>
           </div>
         </div>

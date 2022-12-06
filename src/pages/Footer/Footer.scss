@@ -1,31 +1,27 @@
-
 footer{
     background-color:  #F5F5F5;
     height: 313px;
     }
-    .Logo{
-        width: 20px;
-    }
-    .imageSocial{
+    .image-social{
         width: 40px;
     }
-    .SameDisplay{
+    .same-display{
         display: flex;
         justify-content:center;
     }
-    .SocialNetworks{
+    .social-networks{
         gap: 24px;
         margin-top: 44px;
         margin-bottom: 71px;
     }
-    .PrivacyPolicy{
+    .privacy-policy{
         gap: 31px;
     }
-    .FitMe{
+    .fit-me{
         display: flex;
         gap: 9.94px;
     }
-    .middleContainerOfFooter{
+    .middle-container-of-footer{
         display: flex;
         flex-direction: column;
         width: 761px;
@@ -34,10 +30,7 @@ footer{
     display: flex;
     gap: 56px;
     }
-    .contentOfFooter{
-        margin-left: auto;
-        margin-right: auto;
-        width: 1440px;
+    .content-of-footer{
         display: flex;
         justify-content: space-between;
         padding-top: 65px;
@@ -55,13 +48,13 @@ footer{
     /* Grayscale/ Primary */
     color: #111112;
     }
-    .Contact{
+    .contact{
         display: flex;
         gap: 14px;
         position: relative;
         left: 35px;
     }
-    #Text-Contact{
+    #text-contact{
     font-family:'Open Sans';
     font-size: 14px;
     font-weight: 400;
@@ -81,8 +74,7 @@ footer{
     width: 138px;
     }
     
-    .Privacy{
-    
+    .privacy{
     font-family:'Open Sans';
     font-size: 12px;
     font-weight: 400;
