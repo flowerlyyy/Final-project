@@ -1,0 +1,92 @@
+
+footer{
+    background-color:  #F5F5F5;
+    height: 313px;
+    }
+    .Logo{
+        width: 20px;
+    }
+    .imageSocial{
+        width: 40px;
+    }
+    .SameDisplay{
+        display: flex;
+        justify-content:center;
+    }
+    .SocialNetworks{
+        gap: 24px;
+        margin-top: 44px;
+        margin-bottom: 71px;
+    }
+    .PrivacyPolicy{
+        gap: 31px;
+    }
+    .FitMe{
+        display: flex;
+        gap: 9.94px;
+    }
+    .middleContainerOfFooter{
+        display: flex;
+        flex-direction: column;
+        width: 761px;
+    }
+    .NavBar{
+    display: flex;
+    gap: 56px;
+    }
+    .contentOfFooter{
+        margin-left: auto;
+        margin-right: auto;
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .NavBar span a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Grayscale/ Primary */
+    color: #111112;
+    }
+    .Contact{
+        display: flex;
+        gap: 14px;
+        position: relative;
+        left: 35px;
+    }
+    #Text-Contact{
+    font-family:'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    height: 19px;
+    width: 54px;
+    color: #ADAEAF;
+    }
+    #number{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    height: 22px;
+    width: 138px;
+    }
+    
+    .Privacy{
+    
+    font-family:'Open Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #ADAEAF;
+    }
