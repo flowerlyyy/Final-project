@@ -1,8 +1,8 @@
-import "../DeliveryPage/DeliveryPage.scss";
+import '../DeliveryPage/DeliveryPage.scss';
 
-export const DeliveryPage= () =>{
-return(
+export const DeliveryPage = () => {
+  return (
     <>
     </>
-);
-}
+  );
+};

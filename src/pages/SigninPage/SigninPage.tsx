@@ -1,4 +1,4 @@
-import "../SigninPage/SigninPage.scss";
+import '../SigninPage/SigninPage.scss';
 
 export const SigninPage = () => {
     return(

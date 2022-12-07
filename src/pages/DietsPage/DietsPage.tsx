@@ -1,4 +1,4 @@
-import "../DietsPage/DietsPage.scss";
+import '../DietsPage/DietsPage.scss';
 
 export const DietsPage= () => {
     return(
