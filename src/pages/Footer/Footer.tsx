@@ -1,9 +1,9 @@
-import "../Footer/Footer.scss";
+import '../Footer/Footer.scss';
 
 export const Footer = () => {
-    return(
-        <>
-        <h1>Footer</h1>
-        </>
-    );
+  return (
+    <>
+      <h1>Footer</h1>
+    </>
+  );
 };
