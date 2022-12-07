@@ -1,9 +1,8 @@
+import { Comments } from './components/Comments/Comments';
 import './HomePage.scss';
 
 export const HomePage = () => {
 return(
-<>
-<h1>HomePage</h1>
-</>
-);
-}
+<Comments/>
+)
+};
