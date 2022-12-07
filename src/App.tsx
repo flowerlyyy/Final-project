@@ -25,7 +25,7 @@ function App() {
           <Route path="testpage" element={<TestPage />} />
         </Routes>
       </main>
-      <footer></footer>
+      <Footer />
     </div>
   );
 }
