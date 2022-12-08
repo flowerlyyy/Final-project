@@ -4,40 +4,40 @@ import image from '../SigninPage/saveit(2).jpg';
 export const SigninPage = () => {
   return (
     <>
-      <div className="signin">
-        <img srcSet={image} id="Tomato-Salad" alt="Main-Tomato" />
-        <div className="yellowBlock">
+      <div className="sign-in">
+        <img srcSet={image} id="tomato-salad" alt="main-tomato" />
+        <div className="yellow-block">
           <form action="">
-            <div className="contentOfForm">
-              <div className="inputPart centered">
+            <div className="content-of-form">
+              <div className="input-part centered">
                 <h2>Sign up</h2>
-                <div className="Inputs">
+                <div className="inputs">
                   <div className="label-input">
                     <label htmlFor="Name">Name</label>
                     <br />
-                    <input type="text" id="Name" placeholder="Name" className="dataFromUser" />
+                    <input type="text" id="Name" placeholder="Name" className="data-from-user" />
                   </div>
                   <div className="label-input">
                     <label htmlFor="Lastname">Lastname</label>
                     <br />
-                    <input type="text" id="Lastname" placeholder="Lastname" className="dataFromUser" />
+                    <input type="text" id="Lastname" placeholder="Lastname" className="data-from-user" />
                   </div>
                   <div className="label-input">
                     <label htmlFor="E-mail">E-mail</label>
                     <br />
-                    <input type="text" id="E-mail" placeholder="admin@mail.ru" className="dataFromUser" />
+                    <input type="text" id="E-mail" placeholder="admin@mail.ru" className="data-from-user" />
                   </div>
                   <div className="label-input">
                     <label htmlFor="Password">Password</label>
                     <br />
-                    <input type="password" id="Password" placeholder="*********" className="dataFromUser" />
+                    <input type="password" id="Password" placeholder="*********" className="data-from-user" />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="Button-link">
-              <button className="SigninButton btnshadow">Sign up</button>
-              <Link to="/Signin" id="Already-link">
+            <div className="button-link">
+              <button className="sign-in-button btnshadow">Sign up</button>
+              <Link to="/Signin" id="already-link">
                 Already have an account ?
               </Link>
             </div>
