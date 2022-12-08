@@ -1,0 +1,116 @@
+.comments{
+    margin-top: 129px;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .rightarrow{
+       width: 123px;
+       height: 43px;
+      margin:25px 12px -10px 12px;
+    
+    
+    }
+    .comments .explanation{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+       }
+    
+    .comments .because{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ADAEAF;
+    margin-top: 84px;
+    }
+    .comments .quote{
+        display: flex;
+        gap:30px;
+        margin-top: 28px;
+    }
+    .comments .quotation{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #111112;
+    }
+    .fourpart{
+        display: grid;
+        grid-template-columns: 334px 334px ;
+       gap:42px;
+       grid-row-gap: 40px;
+    }
+    .fourpart .grey-text{
+        width: 334px;
+        height: 126px;
+        background: #F5F5F5;
+        border-radius: 24px;
+    }
+    .surname{
+        display: flex;
+        gap: 10px;
+        height: 20px;
+        align-items: center;
+        padding-top: 16px;
+    }
+    /* .surname .arrow{
+        width: 24px;
+    height: 0px;
+    border: 1px solid #111112;
+    } */
+    .rating {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse
+    }
+    .rating[data-total-value="1"].stars:nth-child(n+5),
+    .rating[data-total-value="2"].stars:nth-child(n+4),
+    .rating[data-total-value="3"].stars:nth-child(n+3),
+    .rating[data-total-value="4"].stars:nth-child(n+2),
+    .rating[data-total-value="5"].stars:nth-child(n+1){
+        color: orange;
+        
+    }
+    
+    .stars{
+        font-size: 30px;
+        color: orange;
+        cursor: pointer;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+        display: flex;
+    }
+    
+    /* .stars:hover,
+    .stars:hover ~ .stars{
+        color:orange;
+    } */
+    
+    .grey-text .name{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 16px;
+    }
+    .grey-text .message{
+     font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ADAEAF;
+    padding-left: 16px;
+    margin-top: 8px;
+    
+    }

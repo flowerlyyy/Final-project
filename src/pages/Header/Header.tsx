@@ -1,5 +1,5 @@
 import '../Header/Header.scss';
-import { NavBar } from '../../Components/NavBar/Navbar';
+import { NavBar } from '../../Components/NavBar/NavBar';
 import bag from './Bag.png';
 import logo from './Logo.png';
 

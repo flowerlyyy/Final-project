@@ -7,7 +7,6 @@ import img5 from '../BoxDiets/group94.png';
 //import img6 from "../BoxDiets/gym.png"
 //import img7 from "../BoxDiets/plant.png"
 //import img8 from "../BoxDiets/taste.png"
-
 export const BoxDiets = () => {
   return (
     <div className="box-diet narrow-container">
