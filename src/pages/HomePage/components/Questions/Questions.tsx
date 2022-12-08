@@ -1,8 +1,5 @@
 import './Questions.scss';
 
-export const Questions= () =>{
-    return(
-        <>
-        </>
-    );
-    }
+export const Questions = () => {
+  return <></>;
+};

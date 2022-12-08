@@ -1,8 +1,5 @@
 import './GetHungry.scss';
 
-export const GetHungry= () =>{
-    return(
-        <>
-        </>
-    );
-    }
+export const GetHungry = () => {
+  return <></>;
+};

@@ -1,8 +1,5 @@
 import './PopularDiets.scss';
 
-export const PopularDiets= () =>{
-    return(
-        <>
-        </>
-    );
-    }
+export const PopularDiets = () => {
+  return <></>;
+};
