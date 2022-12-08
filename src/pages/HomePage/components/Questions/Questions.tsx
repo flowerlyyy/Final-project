@@ -14,7 +14,7 @@ export const Questions = () => {
     <>
       <div className="question-block narrow-container">
         {questions.map((question, index) => (
-          <Question question={questions[index]} />
+          <Question question={questions[index]} key={index} />
         ))}
       </div>
       <div className="strange-thing">
