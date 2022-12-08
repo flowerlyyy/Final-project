@@ -1,3 +1,4 @@
+@import "../../../../variables";
 .question-block{
     display: flex;
     flex-direction: column;
@@ -6,18 +7,18 @@
 .block{
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #EAEAEA; ;
+    border-top: 1px solid $main-border;
     padding: 38px 0 38px 0;
 }
 .question{
-    font-family: 'Open Sans', sans-serif;
+    font-family: $main-font;
     font-size: 28px;
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0em;
 }
 .block:last-child{
-    border-bottom: 1px solid #EAEAEA;
+    border-bottom: 1px solid $main-border;
 }
 .arrow{
     margin-top: auto;
