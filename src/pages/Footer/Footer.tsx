@@ -4,7 +4,7 @@ import { NavBar } from '../../Components/NavBar/Navbar';
 export const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className="container">
         <div className="content-of-footer narrow-container">
           <div className="fit-me">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22" fill="none">
