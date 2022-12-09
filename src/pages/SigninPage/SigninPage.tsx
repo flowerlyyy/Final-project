@@ -1,7 +1,14 @@
 import '../SigninPage/SigninPage.scss';
 import { Link } from 'react-router-dom';
+import { register } from './signinPageSlice';
+import { useDispatch } from 'react-redux';
 import image from '../SigninPage/saveit(2).jpg';
+
 export const SigninPage = () => {
+  const dispatch = useDispatch();
+  const registerClickHandler = () =>
+    dispatch(register({ name: 'Javid', lastName: 'Hatamov', email: 'mail@example.com', password: '12345' }));
+
   return (
     <>
       <div className="sign-in">
@@ -36,7 +43,9 @@ export const SigninPage = () => {
               </div>
             </div>
             <div className="button-link">
-              <button className="sign-in-button btnshadow">Sign up</button>
+              <button type='button' className="sign-in-button btnshadow" onClick={registerClickHandler}>
+                Sign up
+              </button>
               <Link to="/Signin" id="already-link">
                 Already have an account ?
               </Link>

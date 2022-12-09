@@ -8,6 +8,7 @@ import { MenuPage } from './pages/MenuPage/MenuPage';
 import { Route, Routes } from 'react-router-dom';
 import { SigninPage } from './pages/SigninPage/SigninPage';
 import { TestPage } from './pages/TestPage/TestPage';
+import { ProfilePage } from './pages/ProfilePage/Profile';
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
           <Route path="footer" element={<Footer />} />
           <Route path="header" element={<Header />} />
           <Route path="menu" element={<MenuPage />} />
-          <Route path="signin" element={<SigninPage />} />
+          <Route path="sign-in" element={<SigninPage />} />
           <Route path="testpage" element={<TestPage />} />
+          <Route path="profile" element={<ProfilePage />} />
         </Routes>
       </main>
       <Footer />
