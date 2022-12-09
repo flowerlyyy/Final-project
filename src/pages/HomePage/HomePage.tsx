@@ -1,4 +1,5 @@
 import { PopularDiets } from './components/PopularDiets/PopularDiets';
+import { TrialDiet } from './components/TrialDiet/TrialDiet';
 import { WhereDeliver } from './components/WhereDeliver/WhereDeliver';
 import './HomePage.scss';
 
@@ -7,6 +8,7 @@ return(
     <>
     <PopularDiets />;
     <WhereDeliver />;
+    <TrialDiet />;
     </>
 );
 };
