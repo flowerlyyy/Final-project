@@ -1,19 +1,14 @@
+import './ProfilePage.scss';
 import { RootState } from '../../store/store';
 import { useSelector } from 'react-redux';
-import tomato from './tomato.jpg';
-
+import profile from './profilepic.png';
 export const ProfilePage = () => {
   const profilePageState = useSelector((state: RootState) => state.profilePage);
   return (
     <div className="profile-page">
-      <img srcSet={tomato} alt="tomato" />
       <div className="content-of-profile">
         <div className="data-about-user">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrTFrhr_-pYR74jUgOy7IerAoHAX3zPIZZcg&usqp=CAU"
-            alt="profile"
-            className="profile-image"
-          />
+          <img id="profile-image" srcSet={profile} alt="profile" />
           {profilePageState.currentUser && (
             <div className="all-data-text">
               <p>
@@ -24,9 +19,7 @@ export const ProfilePage = () => {
             </div>
           )}
 
-          <button className="change-data">
-            <img src="/assets/gearicon.png" alt="gear icon" />
-          </button>
+          <button className="change-data">Edit Profile</button>
         </div>
         <div className="images-of-user">
           <div className="item">

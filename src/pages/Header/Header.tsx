@@ -21,8 +21,8 @@ export const Header = () => {
             {headerState.currentUser.name} {headerState.currentUser.lastName}
           </div>
         ) : (
-          <Link to="/sign-in" className="sign">
-            Sign in
+          <Link to="/log-in" className="sign">
+            Login
           </Link>
         )}
       </div>

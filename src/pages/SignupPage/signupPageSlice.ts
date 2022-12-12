@@ -1,8 +1,8 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit';
 
-interface SigninPageState {}
+interface SignupPageState {}
 
-const initialState: SigninPageState = {};
+const initialState: SignupPageState = {};
 
 interface RegisterPayload {
   name: string;
@@ -10,15 +10,14 @@ interface RegisterPayload {
   email: string;
   password: string;
 }
-
-export const signinPageSlice = createSlice({
-  name: 'signinPage',
+export const signupPageSlice = createSlice({
+  name: 'signupPage',
   initialState: initialState,
   reducers: {
     register: (_state, _action: PayloadAction<RegisterPayload>) => {},
   },
 });
 
-export const { register } = signinPageSlice.actions;
+export const { register } = signupPageSlice.actions;
 
-export const signinPageReducer = signinPageSlice.reducer;
+export const signupPageReducer = signupPageSlice.reducer;

@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { headerReducer } from '../pages/Header/headerSlice';
 import { profilePageReducer } from '../pages/ProfilePage/profilePageSlice';
-import { signinPageReducer } from '../pages/SigninPage/signinPageSlice';
+import { signupPageReducer } from '../pages/SignupPage/signupPageSlice';
 import { testPageReducer } from '../pages/TestPage/testPageSlice';
 
 export const store = configureStore({
@@ -9,7 +9,7 @@ export const store = configureStore({
     testPage: testPageReducer,
     header: headerReducer,
     profilePage: profilePageReducer,
-    signinPageState: signinPageReducer,
+    signupPageState: signupPageReducer,
   },
 });
 

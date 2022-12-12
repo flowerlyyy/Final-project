@@ -1,18 +1,12 @@
-import '../SigninPage/SigninPage.scss';
+import '../SignupPage/SignupPage.scss';
 import { Link } from 'react-router-dom';
-import { register } from './signinPageSlice';
-import { useDispatch } from 'react-redux';
-import image from '../SigninPage/saveit(2).jpg';
+import tomato from './tomato.jpg';
 
-export const SigninPage = () => {
-  const dispatch = useDispatch();
-  const registerClickHandler = () =>
-    dispatch(register({ name: 'Javid', lastName: 'Hatamov', email: 'mail@example.com', password: '12345' }));
-
+export const SignupPage = () => {
   return (
     <>
       <div className="sign-in">
-        <img srcSet={image} id="tomato-salad" alt="main-tomato" />
+        <img srcSet={tomato} id="tomato-salad" alt="main-tomato" />
         <div className="yellow-block">
           <form action="">
             <div className="content-of-form">
@@ -43,10 +37,10 @@ export const SigninPage = () => {
               </div>
             </div>
             <div className="button-link">
-              <button type='button' className="sign-in-button btnshadow" onClick={registerClickHandler}>
+              <button type="button" className="sign-in-button btnshadow">
                 Sign up
               </button>
-              <Link to="/Signin" id="already-link">
+              <Link to="/log-in" id="already-link" className="centered">
                 Already have an account ?
               </Link>
             </div>

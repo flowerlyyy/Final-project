@@ -1,0 +1,87 @@
+@import "../../variables";
+.login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: $background-color;
+}
+#tomato-salad{
+    height: 100vh;
+    object-fit: cover;
+    /*width: 50%;*/
+}
+.content-block{
+    border-radius: 25px;
+    width: 50%;
+}
+.content-of-form{
+    border-radius: 25px;
+    margin: auto;
+    padding: 10px;
+}
+.centered{
+    width: fit-content;
+    margin: auto;
+}
+.input-part h2{
+    text-align: center;
+}
+.line{
+    width: 100px;
+    height: 0px;
+    color: darkblue;
+    border: 1px solid ;
+    position: relative;
+    top: 9px;
+}
+
+.log-in-button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 270px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px auto 0 auto;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    position: relative;
+    left: 85px;
+}
+.btnshadow:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.buttons{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.data-from-user{
+    background-color: inherit;
+    border: 1px solid #ADAEAF;
+    border-radius: 22px;
+    height: 54px;
+    line-height: 52px;
+    padding: 0 24px 0 28px;
+    margin-top: 20px;
+}
+.label-input{
+    margin-bottom: 10px;
+    
+}
+label{
+    padding-left: 15px;
+}
+#dont-have-link{
+    position: relative;
+    top: 75px;
+    right: 115px;
+}

@@ -1,6 +1,6 @@
 import { User } from '../../models/User';
 import { createSlice } from '@reduxjs/toolkit';
-import { register } from '../SigninPage/signinPageSlice';
+import { register } from '../SignupPage/signupPageSlice';
 
 interface ProfilePageState {
   currentUser: User | undefined;
