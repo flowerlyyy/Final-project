@@ -1,3 +1,4 @@
+@import '..//..//..//..//Variables';
 .popular-diets{
     max-width: 1440px;
     margin-left: auto;
@@ -13,7 +14,7 @@
     font-weight: 700;
     font-size: 38px;
     line-height: 62px;
-    color: #111112;
+    color: $colortext;
     margin: 0;
 }
 .arrows{
@@ -29,8 +30,8 @@
     width: 35px;
     height: 16px;
     border: 0px;
-    border-color: white;
-    background-color: white;
+    border-color: $colorwhite;
+    background-color: $colorwhite;
 }
 .picarrow1 , .picarrow2{
     width: 35px;
@@ -60,7 +61,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 22px;
-color: #111112;
+color: $colortext;
 margin: 0;
 margin-top: 16px;
 }
@@ -75,15 +76,15 @@ margin-top: 12px;
 .kcal{
     width: 80px;
 height: 23px;
-background: #F5F5F5;
-border: #F5F5F5;
+background: $color1;
+border: $color1;
 border-radius: 8px;
 font-family: 'Open Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
-color: #111112;
+color: $colortext;
 }
 .p-taque{
     width: 278px;
@@ -93,7 +94,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
-color: #ADAEAF;
+color: $color2;
 margin: 0;
 margin-top: 18px;
 }
@@ -120,7 +121,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
-color: #ADAEAF;
+color: $color2;
 margin-right: 3px
 }
 .numbertext{
@@ -131,7 +132,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 28px;
 line-height: 38px;
-color: #111112;
+color: $colortext;
 margin: 0;
 }
 .pln-text{
@@ -142,7 +143,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 19px;
-color: #111112;
+color: $colortext;
 }
 .day-text{
     width: 33px;
@@ -152,10 +153,10 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 19px;
-color: #ADAEAF;
+color: $color2;
 }
 .choose{
-background: #1AC84B;
+background: $colorgreen;
 border-radius: 10px;
 width: 98px;
 height: 39px;
@@ -164,7 +165,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 19px;
-color: #FDFBFA;
-border: #1AC84B;
+color: $color3;
+border: $colorgreen;
 }
 
