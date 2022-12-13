@@ -1,4 +1,4 @@
-.PopularDiets{
+.popular-diets{
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +52,7 @@
     width: 345px;
 height: 452px;
 }
-.slim{
+.textafterpic{
     width: 35px;
 height: 22px;
 font-family: 'Open Sans';
@@ -85,7 +85,7 @@ font-size: 14px;
 line-height: 19px;
 color: #111112;
 }
-.taque{
+.p-taque{
     width: 278px;
 height: 57px;
 font-family: 'Open Sans';
@@ -97,7 +97,7 @@ color: #ADAEAF;
 margin: 0;
 margin-top: 18px;
 }
-.frombutton{
+.frombutton-box{
     width: 345px;
     height: 39px;
     margin-top: 19px;
@@ -106,13 +106,13 @@ margin-top: 18px;
     margin: 0;
     margin-top: 25px;
 }
-.fromday{
+.fromday-box{
     width: 128px;
     height: 38px;
     display: flex;
     gap: 2px;
 }
-.from{
+.from-p{
     width: 32px;
 height: 19px;
 font-family: 'Open Sans';
@@ -123,7 +123,7 @@ line-height: 19px;
 color: #ADAEAF;
 margin-right: 3px
 }
-.num{
+.numbertext{
     width: 32px;
 height: 38px;
 font-family: 'Open Sans';
@@ -134,7 +134,7 @@ line-height: 38px;
 color: #111112;
 margin: 0;
 }
-.pln{
+.pln-text{
     width: 22px;
 height: 19px;
 font-family: 'Open Sans';
@@ -144,7 +144,7 @@ font-size: 14px;
 line-height: 19px;
 color: #111112;
 }
-.day{
+.day-text{
     width: 33px;
 height: 19px;
 font-family: 'Open Sans';
