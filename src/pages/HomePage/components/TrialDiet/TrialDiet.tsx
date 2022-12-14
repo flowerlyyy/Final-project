@@ -4,13 +4,13 @@ import Frame2 from './Frame 2.svg';
 import Frame1 from './Frame 1.svg';
 import Group83 from './Group 83.svg';
 
-export const TrialDiet= () =>{
-    return(
-        <div className="TrialDiet narrow-container">
+export const TrialDiet = () => {
+  return (
+    <div className="trial-diet narrow-container">
       <img src={Line} alt="error" />
-      <div className="Order-Diet">
+      <div className="order-diet">
         <img className="fruit-left" src={Frame2} alt="fruiterror" />
-        <div className="Center-Diet">
+        <div className="center-diet">
           <h2 className="trial">Order your trial diet</h2>
           <p className="anydiet">Try any diet to choose the right one for you</p>
           <button className="choose-diet">Choose a diet</button>
@@ -19,5 +19,5 @@ export const TrialDiet= () =>{
       </div>
       <img src={Group83} alt="error" />
     </div>
-    );
-    };
+  );
+};
