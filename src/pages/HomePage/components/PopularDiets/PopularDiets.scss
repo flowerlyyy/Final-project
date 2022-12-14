@@ -1,0 +1,171 @@
+@import '..//..//..//..//Variables';
+.popular-diets{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 575px; 
+    margin-bottom: 220px;
+}
+.themost{
+    width: 558px;
+    height: 62px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 62px;
+    color: $colortext;
+    margin: 0;
+}
+.arrows{
+    width: 98px;
+    margin-left: auto;
+    margin-top: 11px;
+    margin-bottom: 37px;
+    display: flex;
+    gap: 28px;
+    justify-content: flex-end;
+}
+.arrow1 , .arrow2{
+    width: 35px;
+    height: 16px;
+    border: 0px;
+    border-color: $colorwhite;
+    background-color: $colorwhite;
+}
+.picarrow1 , .picarrow2{
+    width: 35px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+    right: 8px;
+    bottom: 3px;
+}
+.fourdiets{
+    width: 1440px;
+    height: 452px;
+    display: flex;
+    justify-content: space-between;
+}
+.diet{
+    width: 345px;
+height: 452px;
+}
+.textafterpic{
+    width: 35px;
+height: 22px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: $colortext;
+margin: 0;
+margin-top: 16px;
+}
+.kcals{
+width: 260px;
+height: 23px;
+display: flex;
+gap: 10px;
+margin: 0;
+margin-top: 12px;
+}
+.kcal{
+    width: 80px;
+height: 23px;
+background: $color1;
+border: $color1;
+border-radius: 8px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: $colortext;
+}
+.p-taque{
+    width: 278px;
+height: 57px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: $color2;
+margin: 0;
+margin-top: 18px;
+}
+.frombutton-box{
+    width: 345px;
+    height: 39px;
+    margin-top: 19px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 25px;
+}
+.fromday-box{
+    width: 128px;
+    height: 38px;
+    display: flex;
+    gap: 2px;
+}
+.from-p{
+    width: 32px;
+height: 19px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: $color2;
+margin-right: 3px
+}
+.numbertext{
+    width: 32px;
+height: 38px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+color: $colortext;
+margin: 0;
+}
+.pln-text{
+    width: 22px;
+height: 19px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+color: $colortext;
+}
+.day-text{
+    width: 33px;
+height: 19px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: $color2;
+}
+.choose{
+background: $colorgreen;
+border-radius: 10px;
+width: 98px;
+height: 39px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+color: $color3;
+border: $colorgreen;
+}
+
