@@ -1,0 +1,31 @@
+.QuestionBlog{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 54px;
+}
+.Blog{
+    display: flex;
+    justify-content: space-between;
+}
+.Question{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+}
+.Blog{
+    border-top: 1px solid #EAEAEA; ;
+    padding: 38px 0 38px 0;
+}
+.Blog:last-child{
+    border-bottom: 1px solid #EAEAEA;
+}
+.Arrow{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Arrow button{
+    background-color: white;
+    border: 0;
+}
