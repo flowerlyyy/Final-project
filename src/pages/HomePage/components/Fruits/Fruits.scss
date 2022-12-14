@@ -1,0 +1,220 @@
+@import '../../../../variables';
+.home {
+  margin-top: 156px;
+  display: flex;
+  height: 818px;
+  justify-content: space-between;
+  gap: 106px;
+}
+.leftpart {
+  width: 353px;
+  text-align: left;
+}
+.centerpart {
+  padding-top: 74px;
+  width: 725px;
+  margin-left: 155px;
+}
+.heading {
+  height: 283px;
+}
+.heading-premimum {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  text-align: center;
+}
+.heading p {
+  position: relative;
+  margin-top: 7.5px;
+  font-family:  $font-gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 74px;
+  display: flex;
+  text-align: center;
+}
+
+.heading-first-line {
+  position: relative;
+}
+
+.heading-last-line {
+  position: relative;
+}
+
+.heading-catering {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  margin-top: 22px;
+}
+.heading-catering .apple {
+  width: 127px;
+  height: 76px;
+  margin: 10px 12px 0 12px;
+}
+.heading-exacting {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  margin-top: 22px;
+  gap: 25px;
+}
+.heading-exacting .avacado {
+  width: 155px;
+  height: 76px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.littletext {
+  font-family: $font-comment;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: $font-color ;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 78px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  margin-top: 25px;
+}
+.dietbutton {
+  width: 120px;
+  height: 43px;
+  background-color: $color-text;
+  border: 1px solid $color-text;
+  border-radius: 18px;
+  color: white;
+  margin-top: 36px;
+}
+.videobutton {
+  display: flex;
+}
+.videobutton img {
+  margin-top: 25px;
+}
+.videobutton a {
+  text-decoration: none;
+  color: $color-text;
+  font-family: $font-comment;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 50px;
+}
+
+.rightpart {
+  width: 474px;
+  text-align: right;
+}
+
+@media (min-width: 1945px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+@media (max-width: 1944px) {
+  .desktop-only {
+    display: none !important;
+  }
+  .home {
+    margin-top: 156px;
+    height: 818px;
+  }
+  .leftpart {
+    width: 270px;
+  }
+  .dish1 {
+    width: 270px;
+  }
+  .dish2 {
+    width: 150px;
+  }
+  .centerpart {
+    padding-top: 74px;
+    width: 725px;
+    margin-left: 100px;
+  }
+  .heading {
+    height: 210px;
+  }
+  .heading-premimum {
+    height: 57px;
+  }
+  .heading p {
+    margin-top: 7.5px;
+    font-size: 54px;
+    line-height: 48px;
+  }
+  .heading-first-line::before {
+    left: -15px;
+    top: -10px;
+  }
+  .heading-last-line::after {
+    right: -15px;
+    top: -10px;
+  }
+  .heading-catering {
+    height: 57px;
+    margin-top: 22px;
+  }
+  .heading-catering .apple {
+    width: 93px;
+    height: 57px;
+    margin-top: 7px;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  .heading-exacting {
+    height: 57px;
+    margin-top: 22px;
+    gap: 25px;
+  }
+  .heading-exacting .avacado {
+    width: 90px;
+    height: 42px;
+    margin-left: 13px;
+    margin-top: 10px;
+  }
+  .littletext {
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 60px;
+  }
+  .buttons {
+    gap: 27px;
+    margin-top: 25px;
+  }
+  .dietbutton {
+    width: 120px;
+    height: 43px;
+    border-radius: 18px;
+    margin-top: 36px;
+  }
+  .videobutton img {
+    margin-top: 25px;
+  }
+  .videobutton a {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 50px;
+  }
+  .rightpart {
+    width: 350px;
+  }
+  .dish3 {
+    width: 180px;
+  }
+  .dish4 {
+    width: 350px;
+  }
+}
