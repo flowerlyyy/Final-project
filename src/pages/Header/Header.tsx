@@ -1,6 +1,6 @@
 import '../Header/Header.scss';
 import { NavBar } from '../../Components/NavBar/NavBar';
-import bag from './Bag.png';
+import bag from './Bag.svg';
 import logo from './Logo.png';
 
 export const Header = () => {

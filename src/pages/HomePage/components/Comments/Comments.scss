@@ -3,6 +3,7 @@
     margin-top: 129px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 138px;
     }
     
     .rightarrow{
@@ -81,17 +82,17 @@
     
     .stars{
         font-size: 30px;
-        color: orange;
+        color: grey;
         cursor: pointer;
         -webkit-transition: 0.4s;
         transition: 0.4s;
         display: flex;
     }
     
-    /* .stars:hover,
-    .stars:hover ~ .stars{
-        color:orange;
-    } */
+     .stars:hover,
+     .stars:hover ~ .stars{
+         color:orange;
+     } 
     
     .grey-text .name{
     font-family: $font-comment;
