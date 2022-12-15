@@ -1,8 +1,5 @@
-import "../MenuPage/MenuPage.scss";
+import '../MenuPage/MenuPage.scss';
 
 export const MenuPage = () => {
-    return(
-        <>
-        </>
-    );
+  return <></>;
 };
