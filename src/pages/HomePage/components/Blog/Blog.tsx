@@ -17,7 +17,7 @@ export const Blog = () => {
                     Vitamin C - what has the most vitamin C?
                 </h4>
                 <p className="text-name">Esther Howard</p>
-                <p className="text">
+                <p className="text-p">
                     Maecenas at bibendum orci, nec gravida elit. Sed viverra in est ac consequat. Nulla facilisi. Donec efficitur malesuada scelerisque. Praesent luctus, nisi eget viverra pulvinar, dolor sem dapibus dolor, vel congue dolor massa vitae dolor. Integer aliquet
                     orci non...
                 </p>

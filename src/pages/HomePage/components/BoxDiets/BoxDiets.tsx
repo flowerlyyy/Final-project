@@ -11,7 +11,7 @@ import React from 'react';
 export const BoxDiets = () => {
   return (
     <div className="box-diet narrow-container">
-      <h2>Box diets with which you get more</h2>
+      <h2 className='box-diet-h2'>Box diets with which you get more</h2>
       <div className="boxes">
         <div className="box-box">
           <img className="symbol" src={img5} alt="" />
