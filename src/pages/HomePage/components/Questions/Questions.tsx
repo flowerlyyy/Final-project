@@ -17,7 +17,7 @@ export const Questions = () => {
           <Question question={questions[index]} />
         ))}
       </div>
-      <div className="strange-thing">
+      <div className="strange-thing centered">
         <svg xmlns="http://www.w3.org/2000/svg" width="85" height="198" viewBox="0 0 85 198" fill="none">
           <line x1="42.5" y1="-2.18557e-08" x2="42.5" y2="161" stroke="#EAEAEA" />
           <path
