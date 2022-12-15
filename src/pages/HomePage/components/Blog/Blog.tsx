@@ -6,10 +6,10 @@ import img4 from '../Blog/picture3.png';
 import React from 'react';
 export const Blog = () => {
     return (
-    <section>
+    <section className="section-blog">
         <div className="blog">
             <div className="blog_right-part">
-                <h2>Blog</h2>
+                <h2 className='blog-h2'>Blog</h2>
                 <div>
                     <img className="blog_picture" src={img3} alt="blogpp" />
                 </div>

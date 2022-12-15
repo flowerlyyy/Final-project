@@ -1,16 +1,13 @@
 import './BoxDiets.scss';
-//import img1 from "../BoxDiets/diversity.png"
 import img5 from '../BoxDiets/group91.png';
 import img6 from '../BoxDiets/group92.png';
 import img7 from '../BoxDiets/group93.png';
 import img8 from '../BoxDiets/group94.png';
 import React from 'react';
-//import img6 from "../BoxDiets/gym.png"
-//import img7 from "../BoxDiets/plant.png"
-//import img8 from "../BoxDiets/taste.png"
+
 export const BoxDiets = () => {
   return (
-    <div className="box-diet narrow-container">
+    <div className="box-diet blog-container">
       <h2 className='box-diet-h2'>Box diets with which you get more</h2>
       <div className="boxes">
         <div className="box-box">

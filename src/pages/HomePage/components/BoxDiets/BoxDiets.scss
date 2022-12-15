@@ -1,7 +1,10 @@
-.narrow-container {
+@import '../../../../variables';
+.blog-container {
     margin-left: auto;
     margin-right: auto;
     max-width: 1463px;
+    background-color: $background-color_boxdiets;
+    margin-top: 219px;
 }
 
 .box-diet {
@@ -12,8 +15,8 @@
     font-weight: 700;
     font-size: 38px;
     line-height: 62px;
-    color: #111112;
-    font-family: 'Open Sans', sans-serif;
+    color: $color_boxdiets_black;
+    $font-family_open: 'Open Sans', sans-serif;
     padding-left: 9px;
 }
 
@@ -32,28 +35,27 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px;
+    border-radius: 35px;
 }
 
 .diet-text {
     margin-top: 23px;
     width: 275px;
     text-align: center;
-}
-
-.diet-text h4 {
-    font-weight: 700;
-    line-height: 22px;
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 23px;
-    font-family: 'Open Sans', sans-serif;
+    h4 {
+        font-weight: 700;
+        line-height: 22px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 23px;
+        $font-family_open: 'Open Sans', sans-serif;
+    }
 }
 
 p {
     margin-top: 12px;
-    color: #ADAEAF;
-    font-family: 'Open Sans', sans-serif;
+    color: $color_boxdiets_brown;
+    $font-family_open: 'Open Sans', sans-serif;
 }
 
 .picture1 {

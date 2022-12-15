@@ -1,20 +1,20 @@
-$color_1: #111112;
-$color_2: #adaeaf;
-$font-family_1: "Open Sans",
-sans-serif;
-section {
+@import '../../../../variables';
+.section-blog {
     margin-left: auto;
     margin-right: auto;
     max-width: 1448px;
+    height: auto;
+    margin-top: 304px;
 }
 
-.blog_right-part h2 {
+.blog_right-part .blog-h2 {
     font-weight: 700;
-    font-family: $font-family_1;
-    color: $color_1;
+    font-family: $font-family_open;
+    color: $color_blog-black;
     width: 83px;
     height: 62px;
     margin: 0;
+    font-size: 38px;
 }
 
 .blog_picture {
@@ -23,23 +23,23 @@ section {
 
 .right_part-h4 {
     font-weight: 700;
-    font-family: $font-family_1;
-    color: $color_1;
+    font-family: $font-family_open;
+    color: $color_blog-black;
     width: 487px;
     height: 22px;
 }
 
 .text-name {
-    color: $color_2;
-    font-family: $font-family_1;
+    color: $color_blog-gray;
+    font-family: $font-family_open;
     font-weight: 400;
     font-size: 14px;
     margin: 0;
 }
 
 .text-p {
-    color: $color_2;
-    font-family: $font-family_1;
+    color: $color_blog-gray;
+    font-family: $font-family_open;
     font-weight: 400;
     font-size: 14px;
     max-width: 562px;
@@ -67,16 +67,16 @@ section {
 }
 
 b {
-    color: $color_2;
-    font-family: $font-family_1;
+    color: $color_blog-gray;
+    font-family: $font-family_open;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
 }
 
 h4 {
-    color: $color_1;
-    font-family: $font-family_1;
+    color: $color_blog-black;
+    font-family: $font-family_open;
     font-weight: 700;
     line-height: 22px;
 }
