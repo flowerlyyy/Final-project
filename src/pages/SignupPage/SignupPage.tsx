@@ -5,7 +5,7 @@ import tomato from './tomato.jpg';
 export const SignupPage = () => {
   return (
     <>
-      <div className="sign-in">
+      <div className="sign-up">
         <img srcSet={tomato} id="tomato-salad" alt="main-tomato" />
         <div className="yellow-block">
           <form action="">
