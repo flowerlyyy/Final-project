@@ -1,5 +1,5 @@
 import '../Footer/Footer.scss';
-import { NavBar } from '../../Components/NavBar/NavBar';
+import { NavBar } from '../../Components/NavBar/Navbar';
 
 export const Footer = () => {
   return (
