@@ -1,9 +1,9 @@
 import '../Footer/Footer.scss';
-import { NavBar } from '../../Components/NavBar/NavBar';
+import { NavBar } from '../../Components/NavBar/Navbar';
 
 export const Footer = () => {
   return (
-    <>
+        <>
       <footer>
         <div className="content-of-footer narrow-container">
           <div className="fit-me">
@@ -85,6 +85,6 @@ export const Footer = () => {
           </div>
         </div>
       </footer>
-    </>
-  );
+        </>
+    );
 };

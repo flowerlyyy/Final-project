@@ -49,5 +49,5 @@ export const BoxDiets = () => {
         </div>
       </div>
     </div>
-  );
+    );
 };
