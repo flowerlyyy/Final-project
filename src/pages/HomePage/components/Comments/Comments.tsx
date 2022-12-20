@@ -1,8 +1,8 @@
 import './Comments.scss';
 import { Comment } from '../Comment/Comment';
-import line from '../Comments/CommentImages/Line 6.svg';
-import quote from '../Comments/CommentImages/Vector.svg';
-import rightarrow from '../Comments/CommentImages/arrow right.svg';
+import line from './CommentImages/Line 6.svg';
+import quote from './CommentImages/Vector.svg';
+import rightarrow from './CommentImages/arrow right.svg';
 
 export const Comments = () => {
   const boxes = [

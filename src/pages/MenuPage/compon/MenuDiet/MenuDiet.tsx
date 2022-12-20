@@ -43,9 +43,9 @@ export const MenuDiet = (props: IMenuProps) => {
             <p className="diet-type">{type}</p>
           </div>
           <div className="symbols">
-            {leafSrc && <img src={leafSrc} alt=''/>}
-            {nutSrc && <img src={nutSrc} alt=''/>}
-            {eggSrc && <img src={eggSrc} alt=''/>}
+            {leafSrc && <img src={leafSrc} alt="" />}
+            {nutSrc && <img src={nutSrc} alt="" />}
+            {eggSrc && <img src={eggSrc} alt="" />}
           </div>
         </div>
       </div>

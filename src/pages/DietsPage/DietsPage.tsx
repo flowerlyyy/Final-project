@@ -1,5 +1,9 @@
 import '../DietsPage/DietsPage.scss';
 
 export const DietsPage = () => {
-  return <></>;
+  return (
+    <>
+      <h1>Diets</h1>
+    </>
+  );
 };

@@ -1,0 +1,121 @@
+@import '..//..//..//..//variables';
+.where-deliver{
+    max-width: 1440px;
+    height: 593px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 69px;
+    }
+    .where{
+        width: 330px;
+    height: 62px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 62px;
+    color: $colortext;
+    margin: 0;
+    }
+    .where-parts{
+        display: flex;
+        justify-content: space-between;
+    }
+    .where-leftpart{
+        height: 299px;
+        width: 434px;
+        margin-top: 3px;
+    }
+    .line-div{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 37px;
+    }
+    .see-if{
+        width: 434px;
+    height: 66px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $colortext;
+    margin: 0;
+    }
+    .city-name{
+    width: 345px;
+    background: $color3;
+    border: 1px solid $color2;
+    border-radius: 22px;
+    margin-top: 94px;
+    }
+    .city-name,
+    .city-name::placeholder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color2;
+    padding: 26px
+    }
+    
+    .check-locate{
+        width: 264px;
+        height: 43px;
+        margin-top: 38px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .check{
+    width: 135px;
+    height: 43px;
+    background: $colororange;
+    border-radius: 18px;
+    border: $colororange;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: $color3;
+    }
+    .locate-me{
+    width: 103px;
+    height: 25px;
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .locate-me-text{
+     width: 70px;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: $colortext;
+    margin: 0;
+    }
+    .where-rightpart{
+    width: 709px;
+    height: 352px;
+    display: grid;
+        gap: 21px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 78px 78px 78px;
+    }
+    .gridpart{
+        width: 222px;
+    height: 58px;
+    background: $color1;
+    border: $color1;
+    border-radius: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: $colortext;
+    }

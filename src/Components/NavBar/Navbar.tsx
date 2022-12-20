@@ -7,13 +7,16 @@ export const NavBar = () => {
       <Link to="/diets" className="nav-link">
         Diets
       </Link>
+      <Link to="/caloriecalculator" className="nav-link">
+        Calorie calculator
+      </Link>
       <Link to="/menu" className="nav-link">
         Menu
       </Link>
       <Link to="/delivery" className="nav-link">
         Delivery
       </Link>
-      <Link to="/about-us" className="nav-link">
+      <Link to="/aboutus" className="nav-link">
         About us
       </Link>
       <Link to="/blog" className="nav-link">
