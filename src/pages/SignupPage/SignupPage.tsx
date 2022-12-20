@@ -1,11 +1,12 @@
-import '../SigninPage/SigninPage.scss';
+import '../SignupPage/SignupPage.scss';
 import { Link } from 'react-router-dom';
-import image from '../SigninPage/saveit(2).jpg';
-export const SigninPage = () => {
+import tomato from './tomato.jpg';
+
+export const SignupPage = () => {
   return (
     <>
       <div className="sign-in">
-        <img srcSet={image} id="tomato-salad" alt="main-tomato" />
+        <img srcSet={tomato} id="tomato-salad" alt="main-tomato" />
         <div className="yellow-block">
           <form action="">
             <div className="content-of-form">
@@ -36,8 +37,10 @@ export const SigninPage = () => {
               </div>
             </div>
             <div className="button-link">
-              <button className="sign-in-button btnshadow">Sign up</button>
-              <Link to="/Signin" id="already-link">
+              <button type="button" className="sign-in-button btnshadow">
+                Sign up
+              </button>
+              <Link to="/log-in" id="already-link" className="centered">
                 Already have an account ?
               </Link>
             </div>
