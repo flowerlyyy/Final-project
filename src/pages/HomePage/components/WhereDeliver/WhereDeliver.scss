@@ -1,5 +1,5 @@
-@import '..//..//..//../variables';
-.where-we-deliver{
+@import '..//..//..//..//variables';
+.where-deliver{
     max-width: 1440px;
     height: 593px;
     margin-left: auto;
@@ -14,7 +14,7 @@
     font-weight: 700;
     font-size: 38px;
     line-height: 62px;
-    color: $color1;
+    color: $colortext;
     margin: 0;
     }
     .where-parts{
@@ -39,13 +39,13 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: $color1;
+    color: $colortext;
     margin: 0;
     }
     .city-name{
     width: 345px;
-    background: $color5;
-    border: 1px solid $color3;
+    background: $color3;
+    border: 1px solid $color2;
     border-radius: 22px;
     margin-top: 94px;
     }
@@ -56,7 +56,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: $color3;
+    color: $color2;
     padding: 26px
     }
     
@@ -70,15 +70,15 @@
     .check{
     width: 135px;
     height: 43px;
-    background: $color6;
+    background: $colororange;
     border-radius: 18px;
-    border: $color6;
+    border: $colororange;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: $color5;
+    color: $color3;
     }
     .locate-me{
     width: 103px;
@@ -95,7 +95,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: $color1;
+    color: $colortext;
     margin: 0;
     }
     .where-rightpart{
@@ -109,13 +109,13 @@
     .gridpart{
         width: 222px;
     height: 58px;
-    background: $color2;
-    border: $color2;
+    background: $color1;
+    border: $color1;
     border-radius: 18px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    color: $color1;
+    color: $colortext;
     }

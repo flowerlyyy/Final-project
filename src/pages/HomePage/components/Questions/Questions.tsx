@@ -1,5 +1,6 @@
 import { Question } from '../Question/Question';
 import './Questions.scss';
+import { Question } from '../Question/Question';
 
 export const Questions = () => {
   const questions = [

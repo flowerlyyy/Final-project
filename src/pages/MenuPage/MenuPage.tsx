@@ -1,9 +1,10 @@
-import "../MenuPage/MenuPage.scss";
+import '../MenuPage/MenuPage.scss';
+import { MenuDiets } from './compon/MenuDiets/MenuDiets';
 
 export const MenuPage = () => {
-    return(
-        <>
-        <h1>MenuPage</h1>
-        </>
-    );
+  return (
+    <>
+      <MenuDiets />
+    </>
+  );
 };

@@ -1,9 +1,5 @@
 import './Fruits.scss';
 
-export const Fruits= () =>{
-    return(
-        <>
-        <h1>Fruits</h1>
-        </>
-    );
-    }
+export const Fruits = () => {
+  return <></>;
+};

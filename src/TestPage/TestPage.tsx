@@ -1,6 +1,6 @@
+import { RootState } from '../store/store';
 import { decrease, increase, loadUser } from './testPageSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '../store/store';
 
 export const TestPage = () => {
   const testPageState = useSelector((state: RootState) => state.testPage);

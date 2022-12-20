@@ -1,11 +1,14 @@
-import { Link } from 'react-router-dom';
 import './NavBar.scss';
+import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
   return (
     <nav className="desktop-only">
       <Link to="/diets" className="nav-link">
         Diets
+      </Link>
+      <Link to="/caloriecalculator" className="nav-link">
+        Calorie calculator
       </Link>
       <Link to="/menu" className="nav-link">
         Menu
