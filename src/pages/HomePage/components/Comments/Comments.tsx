@@ -6,4 +6,4 @@ export const Comments= () =>{
         <h1>Comments</h1>
         </>
     );
-    }
+    };

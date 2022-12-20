@@ -6,4 +6,4 @@ export const BoxDiets= () =>{
         <h1>BoxDiets</h1>
         </>
     );
-    }
+    };
