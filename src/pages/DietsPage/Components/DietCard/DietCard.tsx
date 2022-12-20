@@ -1,4 +1,4 @@
-interface IDietPageProps {
+interface IDietCardProps {
   imgcookie: string;
   textafterimg: string;
   smallkcal: string;
@@ -11,7 +11,7 @@ interface IDietPageProps {
   textday: string;
   choosebutton: string;
 }
-export const DietPage = (props: IDietPageProps) => {
+export const DietCard = (props: IDietCardProps) => {
   const {
     imgcookie,
     textafterimg,
@@ -30,9 +30,9 @@ export const DietPage = (props: IDietPageProps) => {
       <img src={imgcookie} alt="errorimage" />
       <p className="textafterpic1">{textafterimg}</p>
       <div className="secondkcals">
-        <button className="secondkcal">{smallkcal}</button>
-        <button className="secondkcal">{mediumkcal}</button>
-        <button className="secondkcal">{bigkcal}</button>
+        <div className="secondkcal">{smallkcal}</div>
+        <div className="secondkcal">{mediumkcal}</div>
+        <div className="secondkcal">{bigkcal}</div>
       </div>
       <p className="textafterkcals2">{textafterkcals}</p>
       <div className="frombutton2">
