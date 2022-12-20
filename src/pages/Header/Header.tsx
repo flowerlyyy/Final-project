@@ -1,6 +1,6 @@
 import '../Header/Header.scss';
 import { Link } from 'react-router-dom';
-import { NavBar } from '../../Components/NavBar/Navbar';
+import { NavBar } from '../../Components/NavBar/NavBar';
 import { RootState } from '../../store/store';
 import { useSelector } from 'react-redux';
 import bag from './Bag.png';
