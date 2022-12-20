@@ -1,8 +1,25 @@
 import './WhereDeliver.scss';
+import { useState } from 'react';
 import Vector from './Vector.svg';
 import line13 from './Line 13.svg';
 
 export const WhereDeliver = () => {
+  const cities = [
+    'Bakı',
+    'Qazax',
+    'Sumqayıt',
+    'Yardımlı',
+    'Salyan',
+    'Quba',
+    'Cəbrayıl',
+    'Qax',
+    'Astara',
+    'Gəncə',
+    'Şəmkir',
+    'Lerik',
+  ];
+  const [chosenCity, setChosenCity] = useState('');
+
   return (
     <div className="where-deliver narrow-container">
       <div className="line-div">
@@ -15,7 +32,13 @@ export const WhereDeliver = () => {
             See if we're delivering to you right now! Use the search engine by entering the postal code of
             your locality and see if we can deliver your order there.
           </p>
-          <input className="city-name" type="text" placeholder="City name " />
+          <input
+            className="city-name"
+            type="text"
+            value={chosenCity}
+            placeholder="City name"
+            onChange={(e) => setChosenCity(e.target.value)}
+          />
           <div className="check-locate">
             <button className="check">Check</button>
             <div className="locate-me">
@@ -25,18 +48,11 @@ export const WhereDeliver = () => {
           </div>
         </div>
         <div className="where-rightpart">
-          <button className="gridpart">Bakı</button>
-          <button className="gridpart">Qazax</button>
-          <button className="gridpart">Sumqayıt</button>
-          <button className="gridpart">Yardımlı</button>
-          <button className="gridpart">Salyan</button>
-          <button className="gridpart">Quba</button>
-          <button className="gridpart">Cəbrayıl</button>
-          <button className="gridpart">Qax</button>
-          <button className="gridpart">Astara</button>
-          <button className="gridpart">Gəncə</button>
-          <button className="gridpart">Şəmkir</button>
-          <button className="gridpart">Lerik</button>
+          {cities.map((item) => (
+            <button className="gridpart" onClick={() => setChosenCity(item)}>
+              {item}
+            </button>
+          ))}
         </div>
       </div>
     </div>
