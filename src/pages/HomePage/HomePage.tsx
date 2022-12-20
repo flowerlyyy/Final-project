@@ -5,6 +5,7 @@ import { Fruits } from './components/Fruits/Fruits';
 import { PopularDiets } from './components/PopularDiets/PopularDiets';
 import { Questions } from './components/Questions/Questions';
 import { WhereDeliver } from './components/WhereDeliver/WhereDeliver';
+import { TrialDiet } from './components/TrialDiet/TrialDiet';
 
 export const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ export const HomePage = () => {
       <Fruits />
       <Comments />
       <PopularDiets />
+      <TrialDiet />
       <WhereDeliver />
       <Comments />
       <BoxDiets />

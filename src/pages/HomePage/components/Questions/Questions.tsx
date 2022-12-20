@@ -1,3 +1,4 @@
+import { Question } from '../Question/Question';
 import './Questions.scss';
 import { Question } from '../Question/Question';
 

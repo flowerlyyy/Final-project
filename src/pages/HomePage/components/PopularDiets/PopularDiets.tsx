@@ -82,6 +82,7 @@ export const PopularDiets = () => {
       <div className="fourdiets">
         {sequences.map((sequence, index) => (
           <PopularDiet
+          key={index}
             imgfood={sequence.imgfood}
             text1={sequence.text1}
             kalori1={sequence.kalori1}
