@@ -50,7 +50,7 @@ export const WhereDeliver = () => {
         <div className="where-rightpart">
           {cities.map((item, index) => (
             <button className="gridpart" onClick={() => setChosenCity(item)} key={index}>
-               {item}
+              {item}
             </button>
           ))}
         </div>

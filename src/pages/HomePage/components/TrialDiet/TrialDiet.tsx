@@ -1,8 +1,5 @@
 import './TrialDiet.scss';
 
-export const TrialDiet= () =>{
-    return(
-        <>
-        </>
-    );
-    }
+export const TrialDiet = () => {
+  return <></>;
+};

@@ -1,7 +1,9 @@
+@import '../../../../variables';
 .comments{
     margin-top: 129px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 138px;
     }
     
     .rightarrow{
@@ -12,19 +14,20 @@
     
     }
     .comments .explanation{
-        font-family: 'Open Sans';
+        font-family: $font-comment;
         font-style: normal;
         font-weight: 700;
         font-size: 38px;
+        color: $color-text;
        }
     
     .comments .because{
-    font-family: 'Open Sans';
+    font-family: $font-comment;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #ADAEAF;
+    color: $font-color;
     margin-top: 84px;
     }
     .comments .quote{
@@ -33,12 +36,12 @@
         margin-top: 28px;
     }
     .comments .quotation{
-    font-family: 'Open Sans';
+    font-family: $font-comment;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: #111112;
+    color: $color-text;
     }
     .fourpart{
         display: grid;
@@ -59,11 +62,6 @@
         align-items: center;
         padding-top: 16px;
     }
-    /* .surname .arrow{
-        width: 24px;
-    height: 0px;
-    border: 1px solid #111112;
-    } */
     .rating {
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
@@ -84,33 +82,34 @@
     
     .stars{
         font-size: 30px;
-        color: orange;
+        color: grey;
         cursor: pointer;
         -webkit-transition: 0.4s;
         transition: 0.4s;
         display: flex;
     }
     
-    /* .stars:hover,
-    .stars:hover ~ .stars{
-        color:orange;
-    } */
+     .stars:hover,
+     .stars:hover ~ .stars{
+         color:orange;
+     } 
     
     .grey-text .name{
-    font-family: 'Open Sans';
+    font-family: $font-comment;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     padding-left: 16px;
     }
     .grey-text .message{
-     font-family: 'Open Sans';
+     font-family: $font-comment;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #ADAEAF;
+    color: $font-color;
     padding-left: 16px;
     margin-top: 8px;
+    white-space: pre-line;
     
     }
