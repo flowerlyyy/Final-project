@@ -1,7 +1,4 @@
 import './Comments.scss';
-import line from '../Comments/CommentImages/Line 6.svg';
-import quote from '../Comments/CommentImages/Vector.svg';
-import rightarrow from '../Comments/CommentImages/arrow right.svg';
 
 export const Comments = () => {
   return (
