@@ -1,30 +1,30 @@
 import { Link } from 'react-router-dom';
 import './NavBar.scss';
 
-export const NavBar=()=>{
-return (
+export const NavBar = () => {
+  return (
     <nav className="desktop-only">
       <Link to="/diets" className="nav-link">
-      Diets
+        Diets
       </Link>
       <Link to="/menu" className="nav-link">
-      Menu
+        Menu
       </Link>
       <Link to="/delivery" className="nav-link">
-      Delivery
+        Delivery
       </Link>
       <Link to="/about-us" className="nav-link">
         About us
       </Link>
       <Link to="/blog" className="nav-link">
-      Blog
+        Blog
       </Link>
       <Link to="/faq" className="nav-link">
-      FAQ
+        FAQ
       </Link>
       <Link to="/profile" className="nav-link">
         Profile
       </Link>
     </nav>
-)
+  );
 };
