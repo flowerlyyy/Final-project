@@ -1,5 +1,7 @@
 import './Comments.scss';
-
+import line from './CommentImages/Line 6.svg';
+import quote from './CommentImages/Vector.svg';
+import rightarrow from './CommentImages/arrow right.svg';
 export const Comments = () => {
   return (
     <div className="comments narrow-container">
@@ -139,5 +141,5 @@ export const Comments = () => {
         </div>
       </div>
     </div>
-    );
+  );
 };
