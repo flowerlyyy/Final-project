@@ -1,0 +1,37 @@
+.question-block{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 54px;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #EAEAEA; ;
+    padding: 38px 0 38px 0;
+}
+.question{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+}
+.block:last-child{
+    border-bottom: 1px solid #EAEAEA;
+}
+.arrow{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.arrow button{
+    background-color: white;
+    border: 0;
+}
+.strange-thing{
+    position: relative;
+    top: 5px;
+}
+.centered{
+    width: fit-content;
+    margin: auto;
+}
