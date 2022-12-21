@@ -1,5 +1,5 @@
 import '..//DietsCard/DietsCard.scss';
-import { DietCard } from '..//DietCard/DietCard';
+import { DietCard } from '../../../../Components/NavBar/DietCard/DietCard';
 import Formoms from './Mask group For moms.svg';
 import LowIG from './Mask group Low IG.svg';
 import MaskgroupGym from './Mask group Gym.svg';
@@ -151,5 +151,5 @@ export const DietsCard = () => {
         ))}
       </div>
     </div>
-  )
+  );
 };
