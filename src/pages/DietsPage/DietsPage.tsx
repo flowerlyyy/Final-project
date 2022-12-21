@@ -1,9 +1,11 @@
 import '../DietsPage/DietsPage.scss';
-
+import { ChooseDiet } from './Components/ChooseDiet/ChooseDiet';
+import { DietsCard } from './Components/DietsCard/DietsCard';
 export const DietsPage = () => {
   return (
     <>
-      <h1>Diets</h1>
+      <DietsCard />
+      <ChooseDiet />
     </>
   );
 };

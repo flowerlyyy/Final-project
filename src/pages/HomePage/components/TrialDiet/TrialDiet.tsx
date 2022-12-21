@@ -1,8 +1,8 @@
 import './TrialDiet.scss';
-import Line from './Line.svg';
-import Frame2 from './Frame 2.svg';
 import Frame1 from './Frame 1.svg';
+import Frame2 from './Frame 2.svg';
 import Group83 from './Group 83.svg';
+import Line from './Line.svg';
 
 export const TrialDiet = () => {
   return (

@@ -1,0 +1,85 @@
+@import '../../../../variables';
+
+.cant-choose-diet {
+    max-width: 1440px;
+    height: 731px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choose-yourdiet {
+    width: 1440px;
+    height: 331px;
+    background: $color1;
+    border-radius: 78px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leaves-left {
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+
+.leaves-right {
+    position: relative;
+    top: 55px;
+    right: 50px;
+}
+
+.center-choose-diet {
+    width: 522px;
+    height: 206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trial-h2 {
+    width: 522px;
+    height: 62px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 62px;
+    text-align: center;
+    color: $color-text;
+    margin: 0;
+}
+
+.anydiet-p {
+    width: 438px;
+    height: 38px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: $color-text;
+    margin: 0;
+    margin-top: 14px;
+}
+
+.choose-diet-button {
+    width: 122px;
+    height: 43px;
+    background: $color-text;
+    border: 1px solid $color-text;
+    border-radius: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: $color3;
+    margin-top: 49px;
+}

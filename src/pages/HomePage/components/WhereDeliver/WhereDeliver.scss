@@ -1,4 +1,4 @@
-@import '..//..//..//..//variables';
+@import '../../../../variables';
 .where-deliver{
     max-width: 1440px;
     height: 593px;
@@ -14,7 +14,7 @@
     font-weight: 700;
     font-size: 38px;
     line-height: 62px;
-    color: $colortext;
+    color: $color-text;
     margin: 0;
     }
     .where-parts{
@@ -39,7 +39,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    color: $colortext;
+    color: $color-text;
     margin: 0;
     }
     .city-name{
@@ -95,7 +95,7 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 19px;
-    color: $colortext;
+    color: $color-text;
     margin: 0;
     }
     .where-rightpart{
@@ -117,5 +117,5 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    color: $colortext;
+    color: $color-text;
     }
