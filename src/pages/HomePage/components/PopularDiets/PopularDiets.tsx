@@ -1,9 +1,9 @@
 import './PopularDiets.scss';
-import { DietCard } from '..//..//..//..//Components/DietCard/DietCard';
 import { useState } from 'react';
 import Formoms from './Mask group For moms.svg';
 import LowIG from './Mask group Low IG.svg';
 import MaskgroupGym from './Mask group Gym.svg';
+import { DietCard } from '../../../../components/DietCard/DietCard';
 import Maskgroupfit from './Mask group fit.svg';
 import Maskgroupketo from './Mask group keto.svg';
 import Maskgroupslim from './Mask group slim.svg';
