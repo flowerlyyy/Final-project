@@ -21,14 +21,6 @@
     border-radius: 28px;
 }
 
-.right_part-h4 {
-    font-weight: 700;
-    font-family: $font-family_open;
-    color: $color_blog-black;
-    width: 487px;
-    height: 22px;
-}
-
 .text-name {
     color: $color_blog-gray;
     font-family: $font-family_open;
@@ -62,8 +54,9 @@
 }
 
 .box-p {
-    height: 100px;
+    height: auto;
     width: auto;
+    color: #adaeaf;
 }
 
 b {
@@ -81,7 +74,7 @@ h4 {
     line-height: 22px;
 }
 
-.image {
+.picture1 {
     border-radius: 33px;
 }
 
