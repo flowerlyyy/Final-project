@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     height: 575px; 
-    margin-bottom: 220px;
+    margin-bottom: 43px;
 }
 .themost{
     width: 558px;
@@ -47,7 +47,8 @@
     width: 1440px;
     height: 452px;
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
+    overflow: hidden;
 }
 .diet{
     width: 345px;
@@ -168,4 +169,3 @@ line-height: 19px;
 color: $color3;
 border: $colorgreen;
 }
-

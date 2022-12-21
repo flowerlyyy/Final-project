@@ -10,6 +10,7 @@ interface IDietCardProps {
   textpln: string;
   textday: string;
   choosebutton: string;
+  marginLeft?: string;
 }
 export const DietCard = (props: IDietCardProps) => {
   const {
@@ -24,9 +25,10 @@ export const DietCard = (props: IDietCardProps) => {
     textpln,
     textday,
     choosebutton,
+    marginLeft,
   } = props;
   return (
-    <div className="eachdiet">
+    <div className="eachdiet" style={marginLeft ? { marginLeft: marginLeft } : {}} >
       <img src={imgcookie} alt="errorimage" />
       <p className="textafterpic1">{textafterimg}</p>
       <div className="secondkcals">
