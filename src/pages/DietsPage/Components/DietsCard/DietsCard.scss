@@ -1,23 +1,26 @@
-@import '..//..//..//..//variables';
-.eight-diets{
+@import '../../../../variables';
+
+.eight-diets {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     height: 1053px;
     margin-bottom: 54px;
 }
-.p-diets{
+
+.p-diets {
     width: 98px;
-height: 62px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 38px;
-line-height: 62px;
-color: $colortext;
-margin: 0;
+    height: 62px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 62px;
+    color: $color-text;
+    margin: 0;
 }
-.eightdiets{
+
+.eightdiets {
     width: 1440px;
     height: 967px;
     margin-top: 22px;
@@ -26,57 +29,63 @@ margin: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 498px;
 }
-.eachdiet{
+
+.eachdiet {
     width: 345px;
-height: 449px;
+    height: 449px;
 }
-.textafterpic1{
+
+.textafterpic1 {
     width: 82px;
-height: 22px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 22px;
-color: $colortext;
-margin: 0;
-margin-top: 16px;
+    height: 22px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-text;
+    margin: 0;
+    margin-top: 16px;
 }
-.secondkcals{
-width: 260px;
-height: 23px;
-display: flex;
-gap: 10px;
-margin: 0;
-margin-top: 12px;
+
+.secondkcals {
+    width: 260px;
+    height: 23px;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    margin-top: 12px;
 }
-.secondkcal{
+
+.secondkcal {
     width: 80px;
-height: 23px;
-background: $color1;
-border:$color1;
-border-radius: 8px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: $colortext;
-padding: 2px 9px;
+    height: 23px;
+    background: $color1;
+    border: $color1;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $color-text;
+    padding: 2px 9px;
 }
-.textafterkcals2{
+
+.textafterkcals2 {
     width: 278px;
-height: 57px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: $color2;
-margin: 0;
-margin-top: 18px;
+    height: 57px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $color2;
+    margin: 0;
+    margin-top: 18px;
 }
-.frombutton2{
+
+.frombutton2 {
     width: 345px;
     height: 39px;
     margin-top: 19px;
@@ -85,64 +94,70 @@ margin-top: 18px;
     margin: 0;
     margin-top: 25px;
 }
-.fromday-box2{
+
+.fromday-box2 {
     width: 128px;
     height: 38px;
     display: flex;
     gap: 2px;
 }
-.fromtext{
+
+.fromtext {
     width: 32px;
-height: 19px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: $color2;
-margin-right: 3px
+    height: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $color2;
+    margin-right: 3px
 }
-.number-p{
+
+.number-p {
     width: 32px;
-height: 38px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 28px;
-line-height: 38px;
-color: $colortext;
-margin: 0;
+    height: 38px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: $color-text;
+    margin: 0;
 }
-.plntext{
+
+.plntext {
     width: 22px;
-height: 19px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-color: $colortext;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: $color-text;
 }
-.daytext{
+
+.daytext {
     width: 33px;
-height: 19px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: $color2;
+    height: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: $color2;
 }
-.choose-btn{
-background: $colorgreen;
-border-radius: 10px;
-width: 98px;
-height: 39px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-color: $color3;
-border: $colorgreen;
+
+.choose-btn {
+    background: $colorgreen;
+    border-radius: 10px;
+    width: 98px;
+    height: 39px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: $color3;
+    border: $colorgreen;
 }

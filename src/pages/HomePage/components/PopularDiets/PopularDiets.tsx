@@ -1,5 +1,5 @@
 import './PopularDiets.scss';
-import { DietCard } from '..//..//..//..//Components/DietCard/DietCard';
+import { DietCard } from '../../../../components/DietCard/DietCard';
 import Maskgroupfit from './Mask group fit.svg';
 import Maskgroupketo from './Mask group keto.svg';
 import Maskgroupslim from './Mask group slim.svg';

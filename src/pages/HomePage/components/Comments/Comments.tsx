@@ -1,9 +1,40 @@
 import './Comments.scss';
-import line from '../Comments/CommentImages/Line 6.svg';
-import quote from '../Comments/CommentImages/Vector.svg';
-import rightarrow from '../Comments/CommentImages/arrow right.svg';
+import { Comment } from '../Comment/Comment';
+import line from './CommentImages/Line 6.svg';
+import quote from './CommentImages/Vector.svg';
+import rightarrow from './CommentImages/arrow right.svg';
 
 export const Comments = () => {
+  const boxes = [
+    {
+      id: 1,
+      userName: 'Guy Hawkins',
+      lineSrc: line,
+      userMessage:
+        'Minima veniam, quis nostrum \n exercitationem ullam corporis suscipit \n laboriosam,nisi ut aliquid ex ea commodi',
+    },
+    {
+      id: 2,
+      userName: 'Esther Howard',
+      lineSrc: line,
+      userMessage:
+        'Minima veniam, quis nostrum exercitationem \n ullam corporis suscipit laboriosam, nisi ut ',
+    },
+    {
+      id: 3,
+      userName: 'Esther Howard',
+      lineSrc: line,
+      userMessage:
+        'Minima veniam, quis nostrum exercitationem \n ullam corporis suscipit laboriosam, nisi ut \n aliquid ex ea commodi consequatur. Quis ',
+    },
+    {
+      id: 4,
+      userName: 'Jacob Jones',
+      lineSrc: line,
+      userMessage: 'Minima veniam, quis nostrum exercitationem \n ullam laboriosam, nisi ut aliquid ex ea  ',
+    },
+  ];
+
   return (
     <div className="comments narrow-container">
       <div className="mixin">
@@ -23,123 +54,9 @@ export const Comments = () => {
         </div>
       </div>
       <div className="fourpart">
-        <div className="comment-box">
-          <div className="rating" data-total-value="0">
-            <div className="stars" data-item-value="5">
-              ★
-            </div>
-            <div className="stars" data-item-value="4">
-              ★
-            </div>
-            <div className="stars" data-item-value="3">
-              ★
-            </div>
-            <div className="stars" data-item-value="2">
-              ★
-            </div>
-            <div className="stars" data-item-value="1">
-              ★
-            </div>
-          </div>
-          <div className="grey-text">
-            <div className="surname">
-              <h3 className="name">Guy Hawkins </h3>
-              <img className="just-line" src={line} alt="" />
-            </div>
-            <p className="message">
-              Minima veniam, quis nostrum <br /> exercitationem ullam corporis suscipit <br /> laboriosam,
-              nisi ut aliquid ex ea commodi{' '}
-            </p>
-          </div>
-        </div>
-
-        <div className="comment-box">
-          <div className="rating" data-total-value="0">
-            <div className="stars" data-item-value="5">
-              ★
-            </div>
-            <div className="stars" data-item-value="4">
-              ★
-            </div>
-            <div className="stars" data-item-value="3">
-              ★
-            </div>
-            <div className="stars" data-item-value="2">
-              ★
-            </div>
-            <div className="stars" data-item-value="1">
-              ★
-            </div>
-          </div>
-          <div className="grey-text">
-            <div className="surname">
-              <h3 className="name">Esther Howard</h3>
-              <img className="just-line" src={line} alt="" />
-            </div>
-            <p className="message">
-              Minima veniam, quis nostrum exercitationem <br /> ullam corporis suscipit laboriosam, nisi ut{' '}
-            </p>
-          </div>
-        </div>
-
-        <div className="comment-box">
-          <div className="rating" data-total-value="0">
-            <div className="stars" data-item-value="5">
-              ★
-            </div>
-            <div className="stars" data-item-value="4">
-              ★
-            </div>
-            <div className="stars" data-item-value="3">
-              ★
-            </div>
-            <div className="stars" data-item-value="2">
-              ★
-            </div>
-            <div className="stars" data-item-value="1">
-              ★
-            </div>
-          </div>
-          <div className="grey-text">
-            <div className="surname">
-              <h3 className="name">Esther Howard</h3>
-              <img className="just-line" src={line} alt="" />
-            </div>
-            <p className="message">
-              Minima veniam, quis nostrum exercitationem <br />
-              ullam corporis suscipit laboriosam, nisi ut <br /> aliquid ex ea commodi consequatur. Quis{' '}
-            </p>
-          </div>
-        </div>
-
-        <div className="comment-box">
-          <div className="rating" data-total-value="0">
-            <div className="stars" data-item-value="5">
-              ★
-            </div>
-            <div className="stars" data-item-value="4">
-              ★
-            </div>
-            <div className="stars" data-item-value="3">
-              ★
-            </div>
-            <div className="stars" data-item-value="2">
-              ★
-            </div>
-            <div className="stars" data-item-value="1">
-              ★
-            </div>
-          </div>
-          <div className="grey-text">
-            <div className="surname">
-              <h3 className="name">Jacob Jones</h3>
-              <img className="just-line" src={line} alt="line" />
-            </div>
-            <p className="message">
-              Minima veniam, quis nostrum exercitationem <br /> ullam laboriosam, nisi ut aliquid ex ea
-            </p>
-          </div>
-        </div>
+        {boxes.map((box, index) => (
+          <Comment key={index} userName={box.userName} lineSrc={box.lineSrc} userMessage={box.userMessage} />
+        ))}
       </div>
     </div>
   );
