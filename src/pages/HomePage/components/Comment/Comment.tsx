@@ -1,24 +1,17 @@
-import { Rating } from '../Rating/Rating';
+import { Rating } from '../../../../Components/Rating/Rating';
 
 interface ICommentProps {
   userName: string;
   lineSrc: string;
   userMessage: string;
+  rating: number;
 }
 
 export const Comment = (props: ICommentProps) => {
-  const { userName, lineSrc, userMessage } = props;
+  const { userName, lineSrc, userMessage, rating } = props;
   return (
     <div className="comment-box">
-      <Rating
-        zeroData={'0'}
-        firstData={'1'}
-        secondData={'2'}
-        thirdData={'3'}
-        forthData={'4'}
-        fifthData={'5'}
-        star={'★'}
-      />
+      <Rating value={rating} />
       <div className="grey-text">
         <div className="surname">
           <h3 className="name">{userName} </h3>
