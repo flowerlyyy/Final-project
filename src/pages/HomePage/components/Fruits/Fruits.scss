@@ -15,7 +15,7 @@
   width: 725px;
   margin-left: 155px;
 }
-.heading {
+.fruit-text {
   height: 283px;
 }
 .heading-premimum {
@@ -24,7 +24,7 @@
   height: 75px;
   text-align: center;
 }
-.heading p {
+.fruit-text p {
   position: relative;
   margin-top: 7.5px;
   font-family:  $font-gilroy;
@@ -34,6 +34,7 @@
   line-height: 74px;
   display: flex;
   text-align: center;
+  color: black;
 }
 
 .heading-first-line {
@@ -80,7 +81,7 @@
   justify-content: center;
   padding-top: 78px;
 }
-.buttons {
+.adjust-diet {
   display: flex;
   justify-content: center;
   gap: 27px;
@@ -144,16 +145,17 @@
     width: 725px;
     margin-left: 100px;
   }
-  .heading {
+  .fruit-text{
     height: 210px;
   }
   .heading-premimum {
     height: 57px;
   }
-  .heading p {
+  .fruit-text p {
     margin-top: 7.5px;
     font-size: 54px;
     line-height: 48px;
+    
   }
   .heading-first-line::before {
     left: -15px;
