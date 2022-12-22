@@ -1,7 +1,7 @@
 import './Blog.scss';
-import cake from './cake.png';
+import cakeblog from './cakeblog.png';
 import blood from './blood.png';
-import orange from './orange.png';
+import orangeblog from './orangeblog.png';
 import pizza from './pizza.png';
 import React, { useState } from 'react'; 
 interface Post {
@@ -18,14 +18,14 @@ const posts:Post[] = [
         title: 'Vitamin C - what has the most vitamin C?',
         body: "Efficitur malesuada scelerisque. Praesent luctus, nisi eget viverra pulvinar, dolor sem dapibus dolor, vel congue dolor massa vitae...",
         author: "Esther Howard",
-        blogImage: orange
+        blogImage: orangeblog
     },
     {
         id: 2,
         title: "Fast food - why should we avoid it? How does it affect our health?",
         body: "Efficitur malesuada scelerisque. Praesent luctus, nisi eget viverra pulvinar, dolor sem dapibus dolor, vel congue dolor massa vitae...",
         author: "Jerome Bell",
-        blogImage: cake
+        blogImage: cakeblog
     },
     {
         id: 3,
