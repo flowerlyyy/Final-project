@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.narrow-container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu {
+    margin-top: 126px;
+    margin-bottom: 251px;
+}
+.menu .header-menu{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 62px;
+}
+.selected-buttons .button-choose{
+    display: flex;
+    gap: 340px;
+}
+.button-choose .button-clicks{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+}
+.button-choose .choice{
+    display: flex;
+    gap: 16px;
+}
+.button-clicks .top-button{
+    background: #FDFBFA; 
+    border: 1px solid #111112;
+    border-radius: 12px;
+    width: 121px;
+    height: 36px;
+}
+.button-clicks .eating-times{
+    background: #F5F5F5;
+border-radius: 12px;
+width: 108px;
+    height: 36px;
+    border: 1px white;
+}
+.choice .choosen{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #111112;
+}
+.choice .choose-a-diet{
+    width: 223px;
+    height: 50px;
+    border: 1px solid #ADAEAF;
+    border-radius: 18px;
+    padding-left: 24px;
+}
+.choice option {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ADAEAF;
+    padding-left: 24px;
+}
+.food-lists{
+    margin-top: 28px;
+    display: grid;
+    grid-template-columns: 347px 347px 347px 347px;
+  row-gap: 68px;
+    column-gap:19px;
+}
+.diet-box{
+    width:347px ;
+    height: 470px;
+    position: relative;
+}
+.diet-box  .rating-score{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFB21A;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.diet-box .break-time{
+    position: relative;
+    bottom: 21px;
+    left:122px ;
+    width: 98px;
+height: 29px;
+border-radius: 10px;
+background-color: #FDFBFA;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #ADAEAF;
+border: 1px white;
+}
+.menu-text{
+    margin-top: -27px;
+}
+
+.menu-text .first-paragraph{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+.first-paragraph .first-paragraph-sentence{
+     font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #111112;
+white-space: pre-line;
+}
+.first-paragraph .first-paragraph-kalori{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ADAEAF;
+}
+.diet-box .second-paragraph{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #ADAEAF;
+white-space: pre-line;
+}
+.last-paragraph{
+    display: flex;
+    height: 22px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+.last-paragraph .diet-menu-type{
+    display: flex;
+    gap: 5px;
+}
+.diet-menu-type .diet-word{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ADAEAF;
+    margin-top: 0;
+    
+}
+.diet-menu-type .diet-type{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #111112; 
+    margin-top: 0;
+}
+
+.last-paragraph .symbols{
+    display: flex;
+    gap: 10px;
+}
+.see-more{
+    margin-top: 88px;
+    width: 75px;
+    height: 28px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.see-more .showing-more{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: #111112;
+}
+.see-more .last-line{
+    width: 8px;
+height: 3px;
+    background: #111112;
+border-radius: 1.4px;
+padding-top: 3px;
+margin-left: 28px;
+
+}
