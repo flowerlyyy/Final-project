@@ -2,7 +2,7 @@ import './Comments.scss';
 import { Comment } from '../Comment/Comment';
 import line from '../Comments/CommentImages/Line 6.svg';
 import quote from '../Comments/CommentImages/Vector.svg';
-import rightarrow from '../Comments/CommentImages/arrow right.svg';
+import rightarrow from '../Comments/CommentImages/Group 96.svg';
 
 export const Comments = () => {
   const boxes = [
@@ -12,11 +12,13 @@ export const Comments = () => {
       lineSrc: line,
       userMessage:
         'Minima veniam, quis nostrum \n exercitationem ullam corporis suscipit \n laboriosam,nisi ut aliquid ex ea commodi',
+      value: 3,
     },
     {
       id: 2,
       userName: 'Esther Howard',
       lineSrc: line,
+      value: 5,
       userMessage:
         'Minima veniam, quis nostrum exercitationem \n ullam corporis suscipit laboriosam, nisi ut ',
     },
@@ -24,6 +26,7 @@ export const Comments = () => {
       id: 3,
       userName: 'Esther Howard',
       lineSrc: line,
+      value: 1,
       userMessage:
         'Minima veniam, quis nostrum exercitationem \n ullam corporis suscipit laboriosam, nisi ut \n aliquid ex ea commodi consequatur. Quis ',
     },
@@ -31,6 +34,7 @@ export const Comments = () => {
       id: 4,
       userName: 'Jacob Jones',
       lineSrc: line,
+      value: 4,
       userMessage: 'Minima veniam, quis nostrum exercitationem \n ullam laboriosam, nisi ut aliquid ex ea  ',
     },
   ];
@@ -38,11 +42,16 @@ export const Comments = () => {
   return (
     <div className="comments narrow-container">
       <div className="mixin">
-        <p className="explanation">
-          We cook – they enjoy every <br /> minute of their
-          <img className="rightarrow" src={rightarrow} alt="yellow-arrow" />
-          lives
-        </p>
+        <div className="explanation">
+          <span className="just-text">We cook – they enjoy every </span>
+          <div className="button-text">
+            <p className="just-text">minute of their </p>
+            <button className="orange">
+              <img src={rightarrow} alt="rightarrow" />
+            </button>
+            <p className="just-text">lives</p>
+          </div>
+        </div>
         <p className="because">Because we...</p>
         <div className="quote">
           <img src={quote} alt="quote" />
@@ -55,7 +64,7 @@ export const Comments = () => {
       </div>
       <div className="fourpart">
         {boxes.map((box, index) => (
-          <Comment key={index} userName={box.userName} lineSrc={box.lineSrc} userMessage={box.userMessage} />
+          <Comment key={index} userName={box.userName} lineSrc={box.lineSrc} userMessage={box.userMessage} rating={box.value} />
         ))}
       </div>
     </div>
