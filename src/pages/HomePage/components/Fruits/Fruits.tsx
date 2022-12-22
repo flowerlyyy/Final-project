@@ -31,7 +31,7 @@ export const Fruits = () => {
           <img className="dish2" src={seconddish} alt="seconddish" />
         </div>
         <div className="centerpart">
-        <div className="heading">
+        <div className="fruit-text">
             <div className="heading-premimum">
               <p className="heading-first-line">Premium quality</p>
             </div>
@@ -49,11 +49,11 @@ export const Fruits = () => {
             Culpa qui officia deserunt mollitia animi. Et harum quidem rerum facilis est et
             <br /> expedita distinctio. Nam libero tempore, cum soluta nobis est
           </p>
-          <div className="buttons">
+          <div className="adjust-diet">
             <button className="dietbutton">Adjust diet</button>
             <div className="videobutton">
               <img src={playicon} alt="playicon" />
-              <a className="video" href="https://www.google.com/">
+              <a className="video" href="https://youtu.be/b_6j2tQWUGE">
                 Watch video
               </a>
             </div>
