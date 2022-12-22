@@ -1,4 +1,4 @@
-import { Rating } from '../../../../Components/Rating/Rating';
+import { Rating } from '../../../../components/Rating/Rating';
 
 interface ICommentProps {
   userName: string;
