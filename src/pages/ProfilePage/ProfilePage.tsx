@@ -1,9 +1,22 @@
 import './ProfilePage.scss';
+import { Images } from './components/Images/Images';
 import { RootState } from '../../store/store';
-import { useSelector } from 'react-redux';
+import { baseUrl } from '../../constants';
+import { loadUser } from '../TestPage/testPageSlice';
+import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
 import profile from './profilepic.png';
 export const ProfilePage = () => {
+  let number = 0;
   const profilePageState = useSelector((state: RootState) => state.profilePage);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    fetch(`${baseUrl}/users`)
+      .then((response) => response.json())
+      .then((data) => dispatch(loadUser({ name: 'Javid', lastName: 'Hatamov' })));
+  }, []);
+
   return (
     <div className="profile-page">
       <div className="content-of-profile">
@@ -14,77 +27,16 @@ export const ProfilePage = () => {
               <p>
                 {profilePageState.currentUser.name} {profilePageState.currentUser.lastName}
               </p>
-              <p>Favourite Dish</p>
-              <p>{profilePageState.currentUser.balance}</p>
+              {<p>Favorite Dishes :{profilePageState.favoriteDishes}</p>}
             </div>
           )}
 
           <button className="change-data">Edit Profile</button>
         </div>
         <div className="images-of-user">
-          <div className="item">
-            <img
-              src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480"
-              alt="sample"
-              className="image-grid"
-            />
-          </div>
-          <div className="item">
-            <img
-              src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480"
-              alt="sample"
-              className="image-grid"
-            />
-          </div>
-          <div className="item">
-            <img
-              src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480"
-              alt="sample"
-              className="image-grid"
-            />
-          </div>
-          <div className="item">
-            <img
-              src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480"
-              alt="sample"
-              className="image-grid"
-            />
-          </div>
-          <div className="item">
-            <img
-              src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480"
-              alt="sample"
-              className="image-grid"
-            />
-          </div>
-          <div className="item">
-            <img
-              src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480"
-              alt="sample"
-              className="image-grid"
-            />
-          </div>
-          <div className="item">
-            <img
-              src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480"
-              alt="sample"
-              className="image-grid"
-            />
-          </div>
-          <div className="item">
-            <img
-              src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480"
-              alt="sample"
-              className="image-grid"
-            />
-          </div>
-          <div className="item">
-            <img
-              src="https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480"
-              alt="sample"
-              className="image-grid"
-            />
-          </div>
+          {profilePageState.images.map((image) => (
+            <Images srcImage={profilePageState.images[number++]} key={number} />
+          ))}
         </div>
       </div>
     </div>

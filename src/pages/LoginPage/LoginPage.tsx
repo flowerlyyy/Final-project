@@ -1,12 +1,35 @@
 import './LoginPage.scss';
 import { Link } from 'react-router-dom';
-import { register } from '../SignupPage/signupPageSlice';
+import { User } from '../../models/User';
+import { baseUrl } from '../../constants';
+import { logIn } from '../../store/currentUserSlice';
+import { setValueInLocalStorage } from '../../services/localStorage.service';
 import { useDispatch } from 'react-redux';
 import tomato from './tomato.jpg';
 export const LoginPage = () => {
+  const registerClickHandler = () => {
+    fetch(`${baseUrl}/auth/login`, {
+      method: 'POST',
+      body: JSON.stringify({
+        firstName: 'Javid',
+        password: '11111111',
+      }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        setValueInLocalStorage('authToken', data.access_token);
+        const user: User = {
+          id: data.id,
+          name: data.name,
+          lastName: data.lastName,
+        };
+        dispatch(logIn({ user: user }));
+      });
+  };
   const dispatch = useDispatch();
-  const registerClickHandler = () =>
-    dispatch(register({ name: 'Javid', lastName: 'Hatamov', email: 'mail@example.com', password: '12345' }));
   return (
     <>
       <div className="login">

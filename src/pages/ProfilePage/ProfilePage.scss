@@ -13,9 +13,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+    width: 790px;
 }
 .all-data-text{
    width: 250px;
+   margin: auto;
 }
 .change-data{
     width: 150px;
@@ -29,10 +31,11 @@
     grid-template-columns: auto auto auto;
     grid-template-areas: 248px;
 }
-.image-grid{
-    width: 250px;
-}
 #profile-image{
     border-radius: 50%;
     margin-top: 30px;
+}
+.image-grid{
+    width: 250px;
+    height: 250px;
 }
