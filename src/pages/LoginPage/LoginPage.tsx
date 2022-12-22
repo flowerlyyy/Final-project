@@ -11,8 +11,8 @@ export const LoginPage = () => {
     fetch(`${baseUrl}/auth/login`, {
       method: 'POST',
       body: JSON.stringify({
-        name: '',
-        password: '',
+        firstName: 'Javid',
+        password: '11111111',
       }),
       headers: {
         'Content-Type': 'application/json',
@@ -30,8 +30,6 @@ export const LoginPage = () => {
       });
   };
   const dispatch = useDispatch();
-  //const registerClickHandler = () =>
-  //dispatch(register({ name: 'Javid', lastName: 'Hatamov', email: 'mail@example.com', password: '12345' }));
   return (
     <>
       <div className="login">

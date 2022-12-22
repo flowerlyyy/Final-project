@@ -1,18 +1,21 @@
 import './ProfilePage.scss';
 import { Images } from './components/Images/Images';
 import { RootState } from '../../store/store';
+import { baseUrl } from '../../constants';
+import { loadUser } from '../TestPage/testPageSlice';
 import { useDispatch, useSelector } from 'react-redux';
+import { useEffect } from 'react';
 import profile from './profilepic.png';
 export const ProfilePage = () => {
   let number = 0;
   const profilePageState = useSelector((state: RootState) => state.profilePage);
   const dispatch = useDispatch();
 
-  // useEffect(() => {
-  //   fetch(`${baseUrl}/users`)
-  //     .then((response) => response.json())
-  //     .then((data) => dispatch(loadUser({ currentUser: data })));
-  // }, []);
+  useEffect(() => {
+    fetch(`${baseUrl}/users`)
+      .then((response) => response.json())
+      .then((data) => dispatch(loadUser({ name: 'Javid', lastName: 'Hatamov' })));
+  }, []);
 
   return (
     <div className="profile-page">
@@ -25,7 +28,6 @@ export const ProfilePage = () => {
                 {profilePageState.currentUser.name} {profilePageState.currentUser.lastName}
               </p>
               {<p>Favorite Dishes :{profilePageState.favoriteDishes}</p>}
-              {/* { <p>Balance :{profilePageState.currentUser.balance}</p> } */}
             </div>
           )}
 
@@ -33,16 +35,10 @@ export const ProfilePage = () => {
         </div>
         <div className="images-of-user">
           {profilePageState.images.map((image) => (
-            <Images srcImage={profilePageState.images[number++]} />
+            <Images srcImage={profilePageState.images[number++]} key={number} />
           ))}
-          {/* <Images
-            srcImage={
-              'https://avatars.mds.yandex.net/i?id=84dbd50839c3d640ebfc0de20994c30d-4473719-images-taas-consumers&n=27&h=480&w=480'
-            }
-          /> */}
         </div>
       </div>
-      {/* //{' '} */}
     </div>
   );
 };

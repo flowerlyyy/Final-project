@@ -11,11 +11,10 @@ export const FormElement = <T extends FieldValues>(props: IFormElementProps<T>) 
   return (
     <>
       <div className="label-input">
-        <label htmlFor={main}>{main}</label>
+        <label>{main}</label>
         <br />
         <input
           type="text"
-          id={main}
           placeholder={main}
           className={message ? ' data-from-user with-errors' : 'data-from-user'}
           {...register(name)}

@@ -25,13 +25,7 @@ interface LoadUserPayload {
 export const profilePageSlice = createSlice({
   name: 'profilePage',
   initialState: initialState,
-  reducers: {
-    // loadUser: (state, action: PayloadAction<LoadUserPayload>) => {
-    //   state.currentUser = action.payload.currentUser;
-    // state.favoriteDishes = action.payload.favoriteDishes;
-    //   state.images = action.payload.images;
-    // },
-  },
+  reducers: {},
   extraReducers: (builder) => {
     builder.addCase(register, (state, action) => {
       const payload = action.payload;
@@ -39,10 +33,6 @@ export const profilePageSlice = createSlice({
         id: 4,
         name: payload.name,
         lastName: payload.lastName,
-        // avatar: '',
-        // balance: 1234,
-        // email: payload.email,
-        //Actually images is empty but I give some urls for checking purpose
       };
       const favoriteDishes = ['sushi', ' ', 'stake'];
       const images = [
@@ -61,5 +51,4 @@ export const profilePageSlice = createSlice({
     });
   },
 });
-// export const {} = profilePageSlice.actions;
 export const profilePageReducer = profilePageSlice.reducer;
