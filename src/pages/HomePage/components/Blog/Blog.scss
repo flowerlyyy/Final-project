@@ -1,0 +1,83 @@
+@import '../../../../variables';
+.section-blog {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1448px;
+    height: auto;
+    margin-top: 304px;
+}
+
+.blog_right-part .blog-h2 {
+    font-weight: 700;
+    font-family: $font-family_open;
+    color: $color_blog-black;
+    width: 83px;
+    height: 62px;
+    margin: 0;
+    font-size: 38px;
+}
+
+.blog_picture {
+    border-radius: 28px;
+}
+
+.text-name {
+    color: $color_blog-gray;
+    font-family: $font-family_open;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+.text-p {
+    color: $color_blog-gray;
+    font-family: $font-family_open;
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 562px;
+    height: 57px;
+    line-height: 19px;
+}
+
+.blog {
+    display: flex;
+}
+
+.blog_left-part {
+    padding: 66px 20px;
+}
+
+.box {
+    max-width: 712px;
+    height: auto;
+    display: flex;
+}
+
+.box-p {
+    height: auto;
+    width: auto;
+    color: #adaeaf;
+}
+
+b {
+    color: $color_blog-gray;
+    font-family: $font-family_open;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+h4 {
+    color: $color_blog-black;
+    font-family: $font-family_open;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.picture1 {
+    border-radius: 33px;
+}
+
+img {
+    padding: 9px 9px 10px 0px;
+}
