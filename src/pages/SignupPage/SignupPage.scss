@@ -69,6 +69,15 @@
     line-height: 52px;
     padding: 0 24px 0 28px;
     margin-top: 20px;
+    
+    &.with-errors{
+        
+        border: 2px solid rgb(199, 31, 31);
+        
+    }
+}
+.validation-error{
+    color:rgb(199, 31, 31);
 }
 
 .input-part h2{

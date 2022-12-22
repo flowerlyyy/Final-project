@@ -23,10 +23,12 @@ export const headerSlice = createSlice({
         id: 4,
         name: payload.name,
         lastName: payload.lastName,
-        avatar: '',
-        balance: 1234,
-        email: payload.email,
+        // avatar: '',
+        // balance: 1234,
+        // email: payload.email,
       };
+      // images: [''],
+      // favoriteDishes: ['sushi', 'stake'],
       state.currentUser = user;
     });
   },
