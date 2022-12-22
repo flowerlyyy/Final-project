@@ -1,0 +1,138 @@
+@import '../../../../variables';
+section {
+    background-color: $background-white;
+    height: 580px;
+    display: flex;
+}
+
+.narrow-container {
+    background-color: $background-white;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-container {
+    width: 59%;
+}
+
+.deliver-h2 {
+    font-family: $font-family_open;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 62px;
+    max-width: 330px;
+    height: 62px;
+    margin: 0;
+}
+
+.text {
+    font-family: $font-family_open;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0;
+    max-width: 412px;
+    height: 66px;
+    margin-left: 2px;
+}
+
+.body-form {
+    padding: 68px 0px 38px;
+}
+
+.name-form {
+    border-radius: 22px;
+    width: 345px;
+    height: 58px;
+    border: 1px solid #ADAEAF;
+    color: $color_brown;
+    margin-left: 2px;
+    padding: 24px;
+}
+
+.nip-form {
+    border-radius: 22px;
+    width: 223px;
+    height: 58px;
+    border: 1px solid #ADAEAF;
+    color: $color_brown;
+    gap: 17px;
+    padding: 25px;
+}
+
+form {
+    display: flex;
+    gap: 17px;
+}
+
+button {
+    background-color: $background-yellow;
+    border-radius: 18px;
+    width: 135px;
+    height: 43px;
+    border: #FFB21A 1px solid;
+    color: $color_white;
+    font-family: $font-family_open;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: $background-green;
+    margin-top: 127px;
+}
+
+.square {
+    width: 6px;
+    height: 65px;
+    background-color: $background-green;
+    margin-top: 9px;
+    margin-left: 2px;
+}
+
+.daily-time {
+    display: flex;
+    gap: 9px;
+    font-family: $font-family_open;
+}
+
+.fotter-text {
+    width: 365px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color_black;
+    font-family: $font-family_open;
+    margin-top: 9px;
+}
+
+.map-a {
+    color: $color_green;
+    text-decoration: none;
+}
+
+.all-text {
+    margin-left: 30px;
+    margin-top: 102px;
+}
+
+.right-container {
+    background-color: $background-white;
+}
+
+.right-container img {
+    width: 583px;
+    height: 561px;
+    margin-top: 18px;
+}
+
+.salammm {
+    display: flex;
+}
