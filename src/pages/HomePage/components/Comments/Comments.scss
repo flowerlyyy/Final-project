@@ -5,6 +5,22 @@
     justify-content: space-between;
     margin-bottom: 138px;
     }
+    
+    .rightarrow{
+       width: 123px;
+       height: 43px;
+      margin:25px 12px -10px 12px;
+    
+    
+    }
+    .explanation{
+        font-family: $font-comment;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        color: $color-text;
+       }
+    
    .explanation .just-text{
     font-family: 'Open Sans';
    font-style: normal;
