@@ -68,30 +68,35 @@ export const SignupPage = () => {
                     message={errors.firstName?.message}
                     name={'firstName'}
                     main={'Name'}
+                    type={'text'}
                   />
                   <FormElement
                     register={register}
                     message={errors.lastName?.message}
                     name={'lastName'}
                     main={'lastName'}
+                    type={'text'}
                   />
                   <FormElement
                     register={register}
                     message={errors.email?.message}
                     name={'email'}
                     main={'E-mail'}
+                    type={'text'}
                   />
                   <FormElement
                     register={register}
                     message={errors.password?.message}
                     name={'password'}
                     main={'password'}
+                    type={'password'}
                   />
                   <FormElement
                     register={register}
                     message={errors.repeatPassword?.message}
                     name={'repeatPassword'}
                     main={'repeatPassword'}
+                    type={'password'}
                   />
                 </div>
               </div>

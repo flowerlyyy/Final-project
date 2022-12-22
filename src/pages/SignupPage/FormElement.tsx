@@ -5,16 +5,17 @@ interface IFormElementProps<T extends FieldValues> {
   message?: string;
   name: Path<UnPackAsyncDefaultValues<T>>;
   main: string;
+  type: string;
 }
 export const FormElement = <T extends FieldValues>(props: IFormElementProps<T>) => {
-  const { register, message, name, main } = props;
+  const { register, message, name, main, type } = props;
   return (
     <>
       <div className="label-input">
         <label>{main}</label>
         <br />
         <input
-          type="text"
+          type={type}
           placeholder={main}
           className={message ? ' data-from-user with-errors' : 'data-from-user'}
           {...register(name)}
